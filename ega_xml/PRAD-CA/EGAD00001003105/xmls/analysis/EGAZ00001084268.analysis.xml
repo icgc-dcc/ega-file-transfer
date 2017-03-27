@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" alias="CPCG0249-B1" center_name="OICR_ICGC" broker_name="EGA" analysis_center="OICR" analysis_date="2014-05-23T00:00:00" accession="ERZ108695">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ108695</PRIMARY_ID>
+         <SUBMITTER_ID namespace="OICR_ICGC">CPCG0249-B1</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>bwa alignment, gatk realign and base call recalibration</TITLE>
+      <DESCRIPTION>lane level reads were aligned against the reference sequence;multiple lane alignments from the same library bams were merged with duplicate marking;multiple library alignments were merged with no duplicate marking;sample level aligments were processed through GATK realignment and base call recalibration as tumour normal pairs;details are indicated in the analysis attributes</DESCRIPTION>
+      <STUDY_REF accession="ERP006417" refcenter="OICR_ICGC" refname="ena-STUDY-OICR_ICGC-23-07-2014-14:03:53:670-139">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP006417</PRIMARY_ID>
+            <SUBMITTER_ID namespace="OICR_ICGC">ena-STUDY-OICR_ICGC-23-07-2014-14:03:53:670-139</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF accession="ERS524091" refcenter="OICR_ICGC" label="CPCG0249-B1" refname="CPCG0249-B1">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS524091</PRIMARY_ID>
+            <SUBMITTER_ID namespace="OICR_ICGC">CPCG0249-B1</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <EXPERIMENT_REF accession="EGAX00001209947" refcenter="OICR_ICGC"/>
+      <RUN_REF accession="ERR575411" refcenter="OICR_ICGC" refname="CPCG_0249_Ly_R_PE_000_WG_130625_SN1015_0252_AD2449ACXX_EG_L004">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERR575411</PRIMARY_ID>
+            <SUBMITTER_ID namespace="OICR_ICGC">CPCG_0249_Ly_R_PE_000_WG_130625_SN1015_0252_AD2449ACXX_EG_L004</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="ERR575412" refcenter="OICR_ICGC" refname="CPCG_0249_Ly_R_PE_000_WG_130625_SN1015_0252_AD2449ACXX_EG_L005">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERR575412</PRIMARY_ID>
+            <SUBMITTER_ID namespace="OICR_ICGC">CPCG_0249_Ly_R_PE_000_WG_130625_SN1015_0252_AD2449ACXX_EG_L005</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="ERR575413" refcenter="OICR_ICGC" refname="CPCG_0249_Ly_R_PE_000_WG_130625_SN1015_0252_AD2449ACXX_EG_L006">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERR575413</PRIMARY_ID>
+            <SUBMITTER_ID namespace="OICR_ICGC">CPCG_0249_Ly_R_PE_000_WG_130625_SN1015_0252_AD2449ACXX_EG_L006</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT>
+            <ASSEMBLY>
+               <STANDARD refname="GRCh37" accession="GCA_000001405.1"/>
+            </ASSEMBLY>
+            <SEQUENCE accession="CM000663.1" label="chr1"/>
+            <SEQUENCE accession="CM000672.1" label="chr10"/>
+            <SEQUENCE accession="CM000673.1" label="chr11"/>
+            <SEQUENCE accession="GL000202.1" label="chr11_gl000202_random"/>
+            <SEQUENCE accession="CM000674.1" label="chr12"/>
+            <SEQUENCE accession="CM000675.1" label="chr13"/>
+            <SEQUENCE accession="CM000676.1" label="chr14"/>
+            <SEQUENCE accession="CM000677.1" label="chr15"/>
+            <SEQUENCE accession="CM000678.1" label="chr16"/>
+            <SEQUENCE accession="CM000679.1" label="chr17"/>
+            <SEQUENCE accession="GL000258.1" label="chr17_ctg5_hap1"/>
+            <SEQUENCE accession="GL000203.1" label="chr17_gl000203_random"/>
+            <SEQUENCE accession="GL000204.1" label="chr17_gl000204_random"/>
+            <SEQUENCE accession="GL000205.1" label="chr17_gl000205_random"/>
+            <SEQUENCE accession="GL000206.1" label="chr17_gl000206_random"/>
+            <SEQUENCE accession="CM000680.1" label="chr18"/>
+            <SEQUENCE accession="GL000207.1" label="chr18_gl000207_random"/>
+            <SEQUENCE accession="CM000681.1" label="chr19"/>
+            <SEQUENCE accession="GL000208.1" label="chr19_gl000208_random"/>
+            <SEQUENCE accession="GL000209.1" label="chr19_gl000209_random"/>
+            <SEQUENCE accession="GL000191.1" label="chr1_gl000191_random"/>
+            <SEQUENCE accession="GL000192.1" label="chr1_gl000192_random"/>
+            <SEQUENCE accession="CM000664.1" label="chr2"/>
+            <SEQUENCE accession="CM000682.1" label="chr20"/>
+            <SEQUENCE accession="CM000683.1" label="chr21"/>
+            <SEQUENCE accession="GL000210.1" label="chr21_gl000210_random"/>
+            <SEQUENCE accession="CM000684.1" label="chr22"/>
+            <SEQUENCE accession="CM000665.1" label="chr3"/>
+            <SEQUENCE accession="CM000666.1" label="chr4"/>
+            <SEQUENCE accession="GL000257.1" label="chr4_ctg9_hap1"/>
+            <SEQUENCE accession="GL000193.1" label="chr4_gl000193_random"/>
+            <SEQUENCE accession="GL000194.1" label="chr4_gl000194_random"/>
+            <SEQUENCE accession="CM000667.1" label="chr5"/>
+            <SEQUENCE accession="CM000668.1" label="chr6"/>
+            <SEQUENCE accession="GL000250.1" label="chr6_apd_hap1"/>
+            <SEQUENCE accession="GL000251.1" label="chr6_cox_hap2"/>
+            <SEQUENCE accession="GL000252.1" label="chr6_dbb_hap3"/>
+            <SEQUENCE accession="GL000253.1" label="chr6_mann_hap4"/>
+            <SEQUENCE accession="GL000254.1" label="chr6_mcf_hap5"/>
+            <SEQUENCE accession="GL000255.1" label="chr6_qbl_hap6"/>
+            <SEQUENCE accession="GL000256.1" label="chr6_ssto_hap7"/>
+            <SEQUENCE accession="CM000669.1" label="chr7"/>
+            <SEQUENCE accession="GL000195.1" label="chr7_gl000195_random"/>
+            <SEQUENCE accession="CM000670.1" label="chr8"/>
+            <SEQUENCE accession="GL000196.1" label="chr8_gl000196_random"/>
+            <SEQUENCE accession="GL000197.1" label="chr8_gl000197_random"/>
+            <SEQUENCE accession="CM000671.1" label="chr9"/>
+            <SEQUENCE accession="GL000198.1" label="chr9_gl000198_random"/>
+            <SEQUENCE accession="GL000199.1" label="chr9_gl000199_random"/>
+            <SEQUENCE accession="GL000200.1" label="chr9_gl000200_random"/>
+            <SEQUENCE accession="GL000201.1" label="chr9_gl000201_random"/>
+            <SEQUENCE accession="J01415.2" label="chrM"/>
+            <SEQUENCE accession="GL000211.1" label="chrUn_gl000211"/>
+            <SEQUENCE accession="GL000212.1" label="chrUn_gl000212"/>
+            <SEQUENCE accession="GL000213.1" label="chrUn_gl000213"/>
+            <SEQUENCE accession="GL000214.1" label="chrUn_gl000214"/>
+            <SEQUENCE accession="GL000215.1" label="chrUn_gl000215"/>
+            <SEQUENCE accession="GL000216.1" label="chrUn_gl000216"/>
+            <SEQUENCE accession="GL000217.1" label="chrUn_gl000217"/>
+            <SEQUENCE accession="GL000218.1" label="chrUn_gl000218"/>
+            <SEQUENCE accession="GL000219.1" label="chrUn_gl000219"/>
+            <SEQUENCE accession="GL000220.1" label="chrUn_gl000220"/>
+            <SEQUENCE accession="GL000221.1" label="chrUn_gl000221"/>
+            <SEQUENCE accession="GL000222.1" label="chrUn_gl000222"/>
+            <SEQUENCE accession="GL000223.1" label="chrUn_gl000223"/>
+            <SEQUENCE accession="GL000224.1" label="chrUn_gl000224"/>
+            <SEQUENCE accession="GL000225.1" label="chrUn_gl000225"/>
+            <SEQUENCE accession="GL000226.1" label="chrUn_gl000226"/>
+            <SEQUENCE accession="GL000227.1" label="chrUn_gl000227"/>
+            <SEQUENCE accession="GL000228.1" label="chrUn_gl000228"/>
+            <SEQUENCE accession="GL000229.1" label="chrUn_gl000229"/>
+            <SEQUENCE accession="GL000230.1" label="chrUn_gl000230"/>
+            <SEQUENCE accession="GL000231.1" label="chrUn_gl000231"/>
+            <SEQUENCE accession="GL000232.1" label="chrUn_gl000232"/>
+            <SEQUENCE accession="GL000233.1" label="chrUn_gl000233"/>
+            <SEQUENCE accession="GL000234.1" label="chrUn_gl000234"/>
+            <SEQUENCE accession="GL000235.1" label="chrUn_gl000235"/>
+            <SEQUENCE accession="GL000236.1" label="chrUn_gl000236"/>
+            <SEQUENCE accession="GL000237.1" label="chrUn_gl000237"/>
+            <SEQUENCE accession="GL000238.1" label="chrUn_gl000238"/>
+            <SEQUENCE accession="GL000239.1" label="chrUn_gl000239"/>
+            <SEQUENCE accession="GL000240.1" label="chrUn_gl000240"/>
+            <SEQUENCE accession="GL000241.1" label="chrUn_gl000241"/>
+            <SEQUENCE accession="GL000242.1" label="chrUn_gl000242"/>
+            <SEQUENCE accession="GL000243.1" label="chrUn_gl000243"/>
+            <SEQUENCE accession="GL000244.1" label="chrUn_gl000244"/>
+            <SEQUENCE accession="GL000245.1" label="chrUn_gl000245"/>
+            <SEQUENCE accession="GL000246.1" label="chrUn_gl000246"/>
+            <SEQUENCE accession="GL000247.1" label="chrUn_gl000247"/>
+            <SEQUENCE accession="GL000248.1" label="chrUn_gl000248"/>
+            <SEQUENCE accession="GL000249.1" label="chrUn_gl000249"/>
+            <SEQUENCE accession="CM000685.1" label="chrX"/>
+            <SEQUENCE accession="CM000686.1" label="chrY"/>
+         </REFERENCE_ALIGNMENT>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE filename="/CPCG/100PG/bam/CPCG0249-B1.bam" filetype="bam" checksum_method="MD5" checksum="5a31723e32f29e61928e7dcb86e85ae6" unencrypted_checksum="4be19d14d1cfa17bae3722cf8bb7454f"/>
+      </FILES>
+      <ANALYSIS_ATTRIBUTES>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>aligner</TAG>
+            <VALUE>bwa aln</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>aligner_ver</TAG>
+            <VALUE>0.5.7</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>mark_duplicates</TAG>
+            <VALUE>picard</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>mark_duplicates_ver</TAG>
+            <VALUE>1.8.7</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>realign_recalibration</TAG>
+            <VALUE>GATK</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>realign_recalibration_coprocessed_sample</TAG>
+            <VALUE>CPCG0249-F1</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>realign_recalibration_ver</TAG>
+            <VALUE>2.4.9</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+      </ANALYSIS_ATTRIBUTES>
+   </ANALYSIS>
+</ANALYSIS_SET>
