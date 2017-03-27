@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-DKFZ-IBIOS-03-01-2013-12:37:29:280-8" center_name="DKFZ-IBIOS" accession="ERR216173" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR216173</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-RUN-DKFZ-IBIOS-03-01-2013-12:37:29:280-8</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF refname="ena-EXPERIMENT-DKFZ-IBIOS-03-01-2013-12:37:29:280-8" refcenter="DKFZ-IBIOS" accession="ERX190839">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX190839</PRIMARY_ID>
+            <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-EXPERIMENT-DKFZ-IBIOS-03-01-2013-12:37:29:280-8</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="WHOLE_GENOME_MATE_PAIR_control_ICGC_MB800_100629_HWUSI-EAS618_0011_42GDPAAXX_s_1_1_sequence.txt.gz.gpg" filetype="fastq" checksum="d8e0bd4b04d533603041631066c26a26" unencrypted_checksum="b354b6da4d6ee852ad068b542726f29b" checksum_method="MD5">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="WHOLE_GENOME_MATE_PAIR_control_ICGC_MB800_100629_HWUSI-EAS618_0011_42GDPAAXX_s_1_2_sequence.txt.gz.gpg" filetype="fastq" checksum="d478374ed19ccda84a9ca13d1a0ce773" unencrypted_checksum="ba133a095aa5f169ad4e75d57ba0faa2" checksum_method="MD5">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+      <RUN_ATTRIBUTES>
+         <RUN_ATTRIBUTE>
+            <TAG>ENA-SUBMISSION-TOOL</TAG>
+            <VALUE>SRA-Webin</VALUE>
+         </RUN_ATTRIBUTE>
+      </RUN_ATTRIBUTES>
+   </RUN>
+</RUN_SET>

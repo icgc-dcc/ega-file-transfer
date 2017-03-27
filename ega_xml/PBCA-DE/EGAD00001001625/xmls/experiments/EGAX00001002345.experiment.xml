@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="EXP_EMBL_110210_SN169_0191_B81C8AABXX_2" center_name="DKFZ-IBIOS" accession="ERX015054">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX015054</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">EXP_EMBL_110210_SN169_0191_B81C8AABXX_2</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>EXP_EMBL_110210_SN169_0191_B81C8AABXX_2</TITLE>
+      <STUDY_REF refname="ICGC_Germany_PedBrain_Medulloblastoma_Pilot_2_LM" accession="ERP000763" refcenter="DKFZ-IBIOS">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP000763</PRIMARY_ID>
+            <SUBMITTER_ID namespace="DKFZ-IBIOS">ICGC_Germany_PedBrain_Medulloblastoma_Pilot_2_LM</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION/>
+         <SAMPLE_DESCRIPTOR refname="LFS_MB2_germ" accession="ERS040282" refcenter="DKFZ-IBIOS">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS040282</PRIMARY_ID>
+               <SUBMITTER_ID namespace="DKFZ-IBIOS">LFS_MB2_germ</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>LFS_MB2_germ_LIB_WGS</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WGS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="324" NOMINAL_SDEV="0"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>Illumina PE protocol genomic DNA</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+         <SPOT_DESCRIPTOR>
+            <SPOT_DECODE_SPEC>
+               <SPOT_LENGTH>206</SPOT_LENGTH>
+               <READ_SPEC>
+                  <READ_INDEX>0</READ_INDEX>
+                  <READ_LABEL>F</READ_LABEL>
+                  <READ_CLASS>Application Read</READ_CLASS>
+                  <READ_TYPE>Forward</READ_TYPE>
+                  <BASE_COORD>1</BASE_COORD>
+               </READ_SPEC>
+               <READ_SPEC>
+                  <READ_INDEX>1</READ_INDEX>
+                  <READ_LABEL>R</READ_LABEL>
+                  <READ_CLASS>Application Read</READ_CLASS>
+                  <READ_TYPE>Reverse</READ_TYPE>
+                  <BASE_COORD>104</BASE_COORD>
+               </READ_SPEC>
+            </SPOT_DECODE_SPEC>
+         </SPOT_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>
