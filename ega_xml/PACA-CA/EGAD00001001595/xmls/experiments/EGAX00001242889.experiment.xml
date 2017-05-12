@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="ASHPC_0034_Pa_R_PE_568_WG" center_name="OICR_ICGC" accession="ERX639637" broker_name="EGA" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX639637</PRIMARY_ID>
+         <SUBMITTER_ID namespace="OICR_ICGC">ASHPC_0034_Pa_R_PE_568_WG</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF refname="Pancreatic Cancer OICR" accession="ERP001969" refcenter="OICR_ICGC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001969</PRIMARY_ID>
+            <SUBMITTER_ID namespace="OICR_ICGC">Pancreatic Cancer OICR</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>ASHPC_0034_Pa_R_PE_568_WG</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR refname="ASHPC_0034_Pa_R" accession="ERS624788" refcenter="OICR_ICGC">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS624788</PRIMARY_ID>
+               <SUBMITTER_ID namespace="OICR_ICGC">ASHPC_0034_Pa_R</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>ASHPC_0034_Pa_R_PE_568_WG</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WGS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>other</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="568"/>
+            </LIBRARY_LAYOUT>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+   </EXPERIMENT>
+</EXPERIMENT_SET>
