@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="ena-EXPERIMENT-DKFZ-IBIOS-08-11-2012-16:35:37:068-3" center_name="DKFZ-IBIOS" accession="ERX167147" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX167147</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-EXPERIMENT-DKFZ-IBIOS-08-11-2012-16:35:37:068-3</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP001951" refname="ICGC_adult_medulloblastoma_MB_2012_11_15" refcenter="DKFZ-IBIOS">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001951</PRIMARY_ID>
+            <SUBMITTER_ID namespace="DKFZ-IBIOS">ICGC_adult_medulloblastoma_MB_2012_11_15</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION/>
+         <SAMPLE_DESCRIPTOR refname="ICGC_BL65" refcenter="DKFZ-IBIOS" accession="ERS188180">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS188180</PRIMARY_ID>
+               <SUBMITTER_ID namespace="DKFZ-IBIOS">ICGC_BL65</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>ICGC_BL65_LIB_WGS</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WGS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="232"/>
+            </LIBRARY_LAYOUT>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+      <EXPERIMENT_ATTRIBUTES>
+         <EXPERIMENT_ATTRIBUTE>
+            <TAG>ENA-SUBMISSION-TOOL</TAG>
+            <VALUE>SRA-Webin</VALUE>
+         </EXPERIMENT_ATTRIBUTE>
+      </EXPERIMENT_ATTRIBUTES>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

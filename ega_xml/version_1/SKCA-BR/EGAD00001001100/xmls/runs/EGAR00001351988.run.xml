@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-BCH-20-09-2015-14:24:08:281-42" center_name="BCH" accession="ERR1020577" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR1020577</PRIMARY_ID>
+         <SUBMITTER_ID namespace="BCH">ena-RUN-BCH-20-09-2015-14:24:08:281-42</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF refname="ena-EXPERIMENT-BCH-20-09-2015-14:24:08:281-42" refcenter="BCH" accession="ERX1099517">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX1099517</PRIMARY_ID>
+            <SUBMITTER_ID namespace="BCH">ena-EXPERIMENT-BCH-20-09-2015-14:24:08:281-42</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>1</READ_INDEX>
+               <READ_LABEL>R2</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Reverse</READ_TYPE>
+               <RELATIVE_ORDER follows_read_index="0"/>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2500</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="ML_26_T_T5S0Y8_R1.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="c5c63ad7c8c211ed9a1b74363661110d" unencrypted_checksum="6eafcd8ff940d6d027dc3fcdf51f3f0e">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="ML_26_T_T5S0Y8_R2.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="13b10dc949300007adfc021d3ed93a3f" unencrypted_checksum="fe17473f4b8bb830c1d7cf82eec1ae36">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>

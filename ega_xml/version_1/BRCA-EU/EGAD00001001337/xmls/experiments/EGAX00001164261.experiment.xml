@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="SC_EXP_11333_1#26" center_name="SC" accession="ERX393645" broker_name="EGA" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX393645</PRIMARY_ID>
+         <SUBMITTER_ID namespace="SC">SC_EXP_11333_1#26</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP001117" refname="Breast_Cancer_Somatic_Genetics_Study_-sc-2012-01-10T12:44:13Z-683" refcenter="SC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001117</PRIMARY_ID>
+            <SUBMITTER_ID namespace="SC">Breast_Cancer_Somatic_Genetics_Study_-sc-2012-01-10T12:44:13Z-683</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>Illumina sequencing of library 8378877, constructed from sample accession EGAN00001174374 for study accession EGAS00001000195.  This is part of an Illumina multiplexed sequencing run (11333_1).  This submission includes reads tagged with the sequence TTCCTGCT.</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS355213" refname="BASIS5604791-sc-1708002" refcenter="SC">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS355213</PRIMARY_ID>
+               <SUBMITTER_ID namespace="SC">BASIS5604791-sc-1708002</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>8378877</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WGS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="412" NOMINAL_SDEV="46"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>Standard</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

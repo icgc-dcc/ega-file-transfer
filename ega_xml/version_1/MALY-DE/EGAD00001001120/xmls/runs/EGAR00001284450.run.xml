@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-DKFZ-IBIOS-15-01-2015-10:10:10:288-18" center_name="DKFZ-IBIOS" accession="ERR732006" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR732006</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-RUN-DKFZ-IBIOS-15-01-2015-10:10:10:288-18</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF refname="ena-EXPERIMENT-DKFZ-IBIOS-15-01-2015-10:10:10:287-18" refcenter="DKFZ-IBIOS" accession="ERX675968">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX675968</PRIMARY_ID>
+            <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-EXPERIMENT-DKFZ-IBIOS-15-01-2015-10:10:10:287-18</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="WGS-PAIRED-control_4177434-SN758_0090_AD141AACXX_6-R1.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="74d6caa6724d440719d05d190e64ab12" unencrypted_checksum="63d78d78574ac2cc63f6041927578951">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="WGS-PAIRED-control_4177434-SN758_0090_AD141AACXX_6-R2.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="22d82404c3fdebcebd5d7bf1d8cbec0f" unencrypted_checksum="a9440464e29ba5353e7e2131f4d2ce3f">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>

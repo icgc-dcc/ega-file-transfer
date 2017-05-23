@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-DKFZ-IBIOS-16-11-2015-10:06:56:884-120" center_name="DKFZ-IBIOS" accession="ERR1138158" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR1138158</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-RUN-DKFZ-IBIOS-16-11-2015-10:06:56:884-120</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF refname="ena-EXPERIMENT-DKFZ-IBIOS-16-11-2015-10:06:56:884-120" refcenter="DKFZ-IBIOS" accession="ERX1217013">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX1217013</PRIMARY_ID>
+            <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-EXPERIMENT-DKFZ-IBIOS-16-11-2015-10:06:56:884-120</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>1</READ_INDEX>
+               <READ_LABEL>R2</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Reverse</READ_TYPE>
+               <RELATIVE_ORDER follows_read_index="0"/>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="WGS-PAIRED-tumor_4198542-SN751_0156_AC2AWJACXX_5_ATTCCT-R1.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="0ef5dcafefa96dbace92d2574f030a09" unencrypted_checksum="6f789b4d84deb50f1068a6404c8888cb">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="WGS-PAIRED-tumor_4198542-SN751_0156_AC2AWJACXX_5_ATTCCT-R2.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="35c1cf9bba823e7988d0a8d0ddba5078" unencrypted_checksum="7c223a5b8e8409e02c9dc6873aa79c27">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>

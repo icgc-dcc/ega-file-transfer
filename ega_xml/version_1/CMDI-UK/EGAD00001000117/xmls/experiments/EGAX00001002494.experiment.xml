@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="SC_EXP_5335_1" center_name="SC" accession="ERX015929" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX015929</PRIMARY_ID>
+         <SUBMITTER_ID namespace="SC">SC_EXP_5335_1</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP000769" refname="Myelodysplastic_Syndrome_Exome_Sequnecing-sc-2011-07-05T12:34:43Z-560" refcenter="SC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP000769</PRIMARY_ID>
+            <SUBMITTER_ID namespace="SC">Myelodysplastic_Syndrome_Exome_Sequnecing-sc-2011-07-05T12:34:43Z-560</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>Illumina sequencing of library 454649, constructed from sample accession EGAN00001001083 for study accession EGAS00001000089.</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS015411" refname="PD4181b_WGA-sc-2010-09-13-42885" refcenter="SC">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS015411</PRIMARY_ID>
+               <SUBMITTER_ID namespace="SC">PD4181b_WGA-sc-2010-09-13-42885</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>454649</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WGS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="205" NOMINAL_SDEV="99"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>qPCR only</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+         <SPOT_DESCRIPTOR>
+            <SPOT_DECODE_SPEC>
+               <SPOT_LENGTH>152</SPOT_LENGTH>
+               <READ_SPEC>
+                  <READ_INDEX>0</READ_INDEX>
+                  <READ_CLASS>Application Read</READ_CLASS>
+                  <READ_TYPE>Forward</READ_TYPE>
+                  <BASE_COORD>1</BASE_COORD>
+               </READ_SPEC>
+               <READ_SPEC>
+                  <READ_INDEX>1</READ_INDEX>
+                  <READ_CLASS>Application Read</READ_CLASS>
+                  <READ_TYPE>Reverse</READ_TYPE>
+                  <BASE_COORD>77</BASE_COORD>
+               </READ_SPEC>
+            </SPOT_DECODE_SPEC>
+         </SPOT_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina Genome Analyzer II</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

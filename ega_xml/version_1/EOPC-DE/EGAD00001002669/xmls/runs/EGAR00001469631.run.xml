@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-DKFZ-IBIOS-08-09-2016-10:43:42:486-34" center_name="DKFZ-IBIOS" accession="ERR1616073" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR1616073</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-RUN-DKFZ-IBIOS-08-09-2016-10:43:42:486-34</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF accession="ERX1686462">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX1686462</PRIMARY_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>1</READ_INDEX>
+               <READ_LABEL>R2</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Reverse</READ_TYPE>
+               <RELATIVE_ORDER follows_read_index="0"/>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="WGS_PAIRED_EOPC-105_tumor_01__SN546_0253_A_C48TBACXX_L001_R1.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="d742eaa78ee8e9f44810696c58345b2e" unencrypted_checksum="f6232571d62e7c22dea8d5a7a8a74152">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="WGS_PAIRED_EOPC-105_tumor_01__SN546_0253_A_C48TBACXX_L001_R2.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="bb138b0cf17cad8b4f08ba71173cd7f9" unencrypted_checksum="a9734d45ce4c985bc46ec22a9b59294f">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>

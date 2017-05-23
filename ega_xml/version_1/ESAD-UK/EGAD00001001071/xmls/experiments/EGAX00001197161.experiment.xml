@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="ena-EXPERIMENT-CRUK-CI-28-05-2014-11:27:45:043-7" center_name="CRUK-CI" accession="ERX484536" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX484536</PRIMARY_ID>
+         <SUBMITTER_ID namespace="CRUK-CI">ena-EXPERIMENT-CRUK-CI-28-05-2014-11:27:45:043-7</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP005232" refname="ena-STUDY-CRUK-CI-07-03-2014-15:10:26:241-107" refcenter="CRUK-CI">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP005232</PRIMARY_ID>
+            <SUBMITTER_ID namespace="CRUK-CI">ena-STUDY-CRUK-CI-07-03-2014-15:10:26:241-107</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION/>
+         <SAMPLE_DESCRIPTOR refname="LP6005500-DNA_B02" refcenter="CRUK-CI" accession="ERS465069">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS465069</PRIMARY_ID>
+               <SUBMITTER_ID namespace="CRUK-CI">LP6005500-DNA_B02</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>unspecified</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WGS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="315"/>
+            </LIBRARY_LAYOUT>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="EXPERIMENT_BD_WES_BD208T" center_name="NCCRI" accession="ERX632268" broker_name="EGA" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX632268</PRIMARY_ID>
+         <SUBMITTER_ID namespace="NCCRI">EXPERIMENT_BD_WES_BD208T</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>Whole exon sequences of biliary tract cancer</TITLE>
+      <STUDY_REF accession="ERP006794" refcenter="NCCRI" refname="ena-STUDY-NCCRI-29-08-2014-05:55:19:816-1120">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP006794</PRIMARY_ID>
+            <SUBMITTER_ID namespace="NCCRI">ena-STUDY-NCCRI-29-08-2014-05:55:19:816-1120</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>Whole exon sequences of biliary tract cancer</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR refname="BD208T" refcenter="NCCRI" accession="ERS606841">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS606841</PRIMARY_ID>
+               <SUBMITTER_ID namespace="NCCRI">BD208T</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>BD</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WXS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="200"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL/>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-DKFZ-IBIOS-17-12-2015-10:13:52:513-14" center_name="DKFZ-IBIOS" accession="ERR1194045" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR1194045</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-RUN-DKFZ-IBIOS-17-12-2015-10:13:52:513-14</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF refname="ena-EXPERIMENT-DKFZ-IBIOS-17-12-2015-10:13:52:513-14" refcenter="DKFZ-IBIOS" accession="ERX1267358">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX1267358</PRIMARY_ID>
+            <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-EXPERIMENT-DKFZ-IBIOS-17-12-2015-10:13:52:513-14</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>1</READ_INDEX>
+               <READ_LABEL>R2</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Reverse</READ_TYPE>
+               <RELATIVE_ORDER follows_read_index="0"/>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="WGS-PAIRED-control_4128477-SN758_0149_AC3F0JACXX_4_CCGTCCC-R1.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="e76e6857d8dd5213806f1516ade9a8f8" unencrypted_checksum="834e1f9d7f2286de5813c8bd0e5bb3de">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="WGS-PAIRED-control_4128477-SN758_0149_AC3F0JACXX_4_CCGTCCC-R2.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="1f6b20e51e381f7862caa020bcf14cdc" unencrypted_checksum="b78b12ee217261343045d4dad86afa93">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>

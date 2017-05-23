@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="exome_CNAG_CLL-192ND_paired" center_name="Hospital Clinic Barcelona" broker_name="EGA" accession="ERX025944">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX025944</PRIMARY_ID>
+         <SUBMITTER_ID namespace="Hospital Clinic Barcelona">exome_CNAG_CLL-192ND_paired</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP000711">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP000711</PRIMARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>Exome - peripheral blood leukocytes from patient CLL-192</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS066861">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS066861</PRIMARY_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>192ND_UO</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WXS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>PCR</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <SINGLE/>
+            </LIBRARY_LAYOUT>
+         </LIBRARY_DESCRIPTOR>
+         <SPOT_DESCRIPTOR>
+            <SPOT_DECODE_SPEC>
+               <SPOT_LENGTH>76</SPOT_LENGTH>
+               <READ_SPEC>
+                  <READ_INDEX>0</READ_INDEX>
+                  <READ_LABEL>F</READ_LABEL>
+                  <READ_CLASS>Application Read</READ_CLASS>
+                  <READ_TYPE>Forward</READ_TYPE>
+                  <BASE_COORD>1</BASE_COORD>
+               </READ_SPEC>
+               <READ_SPEC>
+                  <READ_INDEX>0</READ_INDEX>
+                  <READ_LABEL>R</READ_LABEL>
+                  <READ_CLASS>Application Read</READ_CLASS>
+                  <READ_TYPE>Reverse</READ_TYPE>
+                  <BASE_COORD>1</BASE_COORD>
+               </READ_SPEC>
+            </SPOT_DECODE_SPEC>
+         </SPOT_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina Genome Analyzer IIx</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>
