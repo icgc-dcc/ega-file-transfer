@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="626WAAAXX__RNAseq_CNAG_CLL-156TR_paired" run_date="2011-04-04T00:00:00" center_name="Hospital Clinic Barcelona" run_center="Centro Nacional de Análisis Genómico" accession="ERR070067" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR070067</PRIMARY_ID>
+         <SUBMITTER_ID namespace="Hospital Clinic Barcelona">626WAAAXX__RNAseq_CNAG_CLL-156TR_paired</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF refname="RNAseq_CNAG_CLL-156TR_paired" accession="ERX047958" refcenter="Hospital Clinic Barcelona">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX047958</PRIMARY_ID>
+            <SUBMITTER_ID namespace="Hospital Clinic Barcelona">RNAseq_CNAG_CLL-156TR_paired</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE checksum="ce0b48dcc0f38ca30cbb90f6faf92c0d" filename="/rnaseq/626WAAAXX_3_1_sequence.txt.gz.gpg" checksum_method="MD5" filetype="fastq" unencrypted_checksum="ec84e321b28cd4c15f117cf3bdc2cff8" quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="@">
+               <READ_LABEL>F</READ_LABEL>
+            </FILE>
+            <FILE checksum="fe9f273ea29ad29d465805823d628d90" filename="/rnaseq/626WAAAXX_3_2_sequence.txt.gz.gpg" checksum_method="MD5" filetype="fastq" unencrypted_checksum="80b60c476ab702d9993a9bc1eaba0d70" quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="@">
+               <READ_LABEL>R</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>

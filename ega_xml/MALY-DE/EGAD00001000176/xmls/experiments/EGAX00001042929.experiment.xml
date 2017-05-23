@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="EXP_WXS_WXS_control_4119027_merged.bam.rmdup" center_name="DKFZ-IBIOS" broker_name="EGA" accession="ERX102294">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX102294</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">EXP_WXS_WXS_control_4119027_merged.bam.rmdup</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF refname="Comparing_sequencing_four_proto-typical_Burkitt_lymphomas_BL_IG-MYC_translocation" accession="ERP001363" refcenter="DKFZ-IBIOS">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001363</PRIMARY_ID>
+            <SUBMITTER_ID namespace="DKFZ-IBIOS">Comparing_sequencing_four_proto-typical_Burkitt_lymphomas_BL_IG-MYC_translocation</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION/>
+         <SAMPLE_DESCRIPTOR refname="control_4119027" accession="ERS139300" refcenter="DKFZ-IBIOS">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS139300</PRIMARY_ID>
+               <SUBMITTER_ID namespace="DKFZ-IBIOS">control_4119027</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>control_4119027_LIB_WXS</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WXS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>Hybrid Selection</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="177" NOMINAL_SDEV="0"/>
+            </LIBRARY_LAYOUT>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina Genome Analyzer IIx</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

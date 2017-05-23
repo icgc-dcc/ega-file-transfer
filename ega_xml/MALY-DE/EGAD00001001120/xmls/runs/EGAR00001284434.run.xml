@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-DKFZ-IBIOS-15-01-2015-10:10:10:283-2" center_name="DKFZ-IBIOS" accession="ERR731990" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR731990</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-RUN-DKFZ-IBIOS-15-01-2015-10:10:10:283-2</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF refname="ena-EXPERIMENT-DKFZ-IBIOS-15-01-2015-10:10:10:282-2" refcenter="DKFZ-IBIOS" accession="ERX675952">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX675952</PRIMARY_ID>
+            <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-EXPERIMENT-DKFZ-IBIOS-15-01-2015-10:10:10:282-2</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="WGS-PAIRED-tumor_4188900-SN778_0112_AC0T18ACXX_7-R1.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="cb958c06da06c00049944975ab212b81" unencrypted_checksum="37f22df30b0f8187f08b3b96ec17aab5">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="WGS-PAIRED-tumor_4188900-SN778_0112_AC0T18ACXX_7-R2.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="44cb932473cbb029f2b5e390292cd273" unencrypted_checksum="d864ffe39b2297f6c9d3d961fcc07799">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>

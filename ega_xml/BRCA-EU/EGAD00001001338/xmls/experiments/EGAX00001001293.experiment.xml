@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="SC_EXP_5852_1" center_name="SC" accession="ERX011772" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX011772</PRIMARY_ID>
+         <SUBMITTER_ID namespace="SC">SC_EXP_5852_1</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP000507" refname="Matched_breast_cancer_fusion_gene_study-sc-2011-02-07" refcenter="SC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP000507</PRIMARY_ID>
+            <SUBMITTER_ID namespace="SC">Matched_breast_cancer_fusion_gene_study-sc-2011-02-07</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>Illumina sequencing of sample "PD3851av3"; library "PD3851av3 1" for the "Matched breast cancer fusion gene study" study.</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS014696" refname="PD3851a-sc-6124" refcenter="SC">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS014696</PRIMARY_ID>
+               <SUBMITTER_ID namespace="SC">PD3851a-sc-6124</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>PD3851av3 1</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WGS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="450"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>High complexity and double size selected</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+         <SPOT_DESCRIPTOR>
+            <SPOT_DECODE_SPEC>
+               <SPOT_LENGTH>200</SPOT_LENGTH>
+               <READ_SPEC>
+                  <READ_INDEX>0</READ_INDEX>
+                  <READ_CLASS>Application Read</READ_CLASS>
+                  <READ_TYPE>Forward</READ_TYPE>
+                  <BASE_COORD>1</BASE_COORD>
+               </READ_SPEC>
+               <READ_SPEC>
+                  <READ_INDEX>1</READ_INDEX>
+                  <READ_CLASS>Application Read</READ_CLASS>
+                  <READ_TYPE>Reverse</READ_TYPE>
+                  <BASE_COORD>101</BASE_COORD>
+               </READ_SPEC>
+            </SPOT_DECODE_SPEC>
+         </SPOT_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

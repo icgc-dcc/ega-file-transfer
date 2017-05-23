@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="SC_EXP_4153_1" center_name="SC" accession="ERX047259" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX047259</PRIMARY_ID>
+         <SUBMITTER_ID namespace="SC">SC_EXP_4153_1</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP001134" refname="Cancer_Exome_Resequencing-sc-2012-01-12T17:27:56Z-378" refcenter="SC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001134</PRIMARY_ID>
+            <SUBMITTER_ID namespace="SC">Cancer_Exome_Resequencing-sc-2012-01-12T17:27:56Z-378</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>Illumina sequencing of library 85895, constructed from sample accession EGAN00001000709 for study accession EGAS00001000206.</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS015037" refname="PD4000a_Exp8-sc-2010-09-13-10059" refcenter="SC">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS015037</PRIMARY_ID>
+               <SUBMITTER_ID namespace="SC">PD4000a_Exp8-sc-2010-09-13-10059</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>85895</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WXS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>Hybrid Selection</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="206" NOMINAL_SDEV="87"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>qPCR only</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina Genome Analyzer II</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

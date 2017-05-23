@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="SC_EXP_6039_5#2" center_name="SC" accession="ERX068045" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX068045</PRIMARY_ID>
+         <SUBMITTER_ID namespace="SC">SC_EXP_6039_5#2</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP001139" refname="Breast_Cancer_Exome_Sequencing-sc-2012-01-13T11:25:54Z-492" refcenter="SC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001139</PRIMARY_ID>
+            <SUBMITTER_ID namespace="SC">Breast_Cancer_Exome_Sequencing-sc-2012-01-13T11:25:54Z-492</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>Illumina sequencing of library 2286503, constructed from sample accession EGAN00001036535 for study accession EGAS00001000211.  This is part of an Illumina multiplexed sequencing run (6039_5).  This submission includes reads tagged with the sequence CGATGT.</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS085068" refname="PD4601a-sc-2012-01-12T18:06:54Z-1099115" refcenter="SC">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS085068</PRIMARY_ID>
+               <SUBMITTER_ID namespace="SC">PD4601a-sc-2012-01-12T18:06:54Z-1099115</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>2286503</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WXS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>Hybrid Selection</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="180" NOMINAL_SDEV="49"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>Agilent Pulldown</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>
