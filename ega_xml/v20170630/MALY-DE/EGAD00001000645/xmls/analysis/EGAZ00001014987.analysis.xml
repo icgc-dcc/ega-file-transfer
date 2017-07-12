@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS alias="ANALYSIS_WGS_control_4139696" center_name="DKFZ-IBIOS" broker_name="EGA" accession="ERZ015398" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ015398</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">ANALYSIS_WGS_control_4139696</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>Alignment of whole genome sequencing data</TITLE>
+      <DESCRIPTION>- sequencing of genomic DNA on Illumina HiSeq2000 (105bp, paired-end)
+- alignment with bwa 0.6.1 against human reference genome (hs37d5)
+- sorting with samtools
+- merging and removal of PCR duplicates with picard</DESCRIPTION>
+      <STUDY_REF refname="MMML_2012_11_06" refcenter="DKFZ-IBIOS" accession="ERP001955">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001955</PRIMARY_ID>
+            <SUBMITTER_ID namespace="DKFZ-IBIOS">MMML_2012_11_06</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF refname="control_4139696" refcenter="DKFZ-IBIOS" label="4139696_control" accession="ERS337569">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS337569</PRIMARY_ID>
+            <SUBMITTER_ID namespace="DKFZ-IBIOS">control_4139696</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT>
+            <ASSEMBLY>
+               <STANDARD refname="GRCh37" accession="GCA_000001405.1"/>
+            </ASSEMBLY>
+            <SEQUENCE accession="GCA_000001405.1" label="hs37d5"/>
+         </REFERENCE_ALIGNMENT>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE filename="WGS_control_4139696_merged.bam.rmdup.bam.gpg" filetype="bam" checksum_method="MD5" checksum="9c2426b1d6e90848f481e2b2eec5909e" unencrypted_checksum="dd73a12929ffd00b12cd660681eebdc5"/>
+      </FILES>
+   </ANALYSIS>
+</ANALYSIS_SET>
