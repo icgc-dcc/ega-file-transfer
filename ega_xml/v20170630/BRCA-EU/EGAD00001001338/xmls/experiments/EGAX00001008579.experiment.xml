@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="SC_EXP_5841_3" center_name="SC" accession="ERX036521" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX036521</PRIMARY_ID>
+         <SUBMITTER_ID namespace="SC">SC_EXP_5841_3</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP001034" refname="20_Matched_Pair_Breast_Cancer_Genomes-sc-2041" refcenter="SC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001034</PRIMARY_ID>
+            <SUBMITTER_ID namespace="SC">20_Matched_Pair_Breast_Cancer_Genomes-sc-2041</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>Illumina sequencing of library 241087, constructed from sample accession EGAN00001030900 for study accession EGAS00001000170.</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS074625" refname="PD4199a-sc-113137" refcenter="SC">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS074625</PRIMARY_ID>
+               <SUBMITTER_ID namespace="SC">PD4199a-sc-113137</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>241087</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WGS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="379" NOMINAL_SDEV="61"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>No PCR</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

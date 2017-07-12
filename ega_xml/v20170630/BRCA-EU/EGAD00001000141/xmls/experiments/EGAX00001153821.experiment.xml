@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="SC_EXP_10749_7#2" center_name="SC" accession="ERX367324" broker_name="EGA" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX367324</PRIMARY_ID>
+         <SUBMITTER_ID namespace="SC">SC_EXP_10749_7#2</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP000782" refname="Triple_Negative_Breast_Cancer_Whole_Genomes-sc-2011-07-20T08:48:20Z-1904" refcenter="SC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP000782</PRIMARY_ID>
+            <SUBMITTER_ID namespace="SC">Triple_Negative_Breast_Cancer_Whole_Genomes-sc-2011-07-20T08:48:20Z-1904</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>Illumina sequencing of library 7930674, constructed from sample accession EGAN00001106140 for study accession EGAS00001000092.  This is part of an Illumina multiplexed sequencing run (10749_7).  This submission includes reads tagged with the sequence CGATGTTT.</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS254556" refname="1904STDY5546975-sc-1643002" refcenter="SC">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS254556</PRIMARY_ID>
+               <SUBMITTER_ID namespace="SC">1904STDY5546975-sc-1643002</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>7930674</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WGS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="432" NOMINAL_SDEV="44"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>Standard</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

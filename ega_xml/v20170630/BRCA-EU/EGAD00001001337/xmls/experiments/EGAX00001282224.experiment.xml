@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="SC_EXP_13220_8#26" center_name="SC" accession="ERX917009" broker_name="EGA" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX917009</PRIMARY_ID>
+         <SUBMITTER_ID namespace="SC">SC_EXP_13220_8#26</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP001117" refname="Breast_Cancer_Somatic_Genetics_Study_-sc-2012-01-10T12:44:13Z-683" refcenter="SC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001117</PRIMARY_ID>
+            <SUBMITTER_ID namespace="SC">Breast_Cancer_Somatic_Genetics_Study_-sc-2012-01-10T12:44:13Z-683</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>Illumina sequencing of library 10262197, constructed from sample accession EGAN00001197180 for study accession EGAS00001000195.  This is part of an Illumina multiplexed sequencing run (13220_8).  This submission includes reads tagged with the sequence TTCCTGCT.</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS441724" refname="BASIS5805815-sc-1928927" refcenter="SC">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS441724</PRIMARY_ID>
+               <SUBMITTER_ID namespace="SC">BASIS5805815-sc-1928927</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>10262197</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WGS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="479" NOMINAL_SDEV="49"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>Standard</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>
