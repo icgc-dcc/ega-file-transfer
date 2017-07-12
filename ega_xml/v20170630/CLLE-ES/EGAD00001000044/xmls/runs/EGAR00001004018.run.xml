@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN accession="ERR048688" alias="621CVAAXX__exome_CNAG_CLL-165ND_paired" run_date="2010-07-19T00:00:00" center_name="Hospital Clinic Barcelona" run_center="Centro Nacional de Análisis Genómico" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR048688</PRIMARY_ID>
+         <SUBMITTER_ID namespace="Hospital Clinic Barcelona">621CVAAXX__exome_CNAG_CLL-165ND_paired</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF refname="exome_CNAG_CLL-165ND_paired" accession="ERX025847" refcenter="Hospital Clinic Barcelona">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX025847</PRIMARY_ID>
+            <SUBMITTER_ID namespace="Hospital Clinic Barcelona">exome_CNAG_CLL-165ND_paired</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE checksum="904798feb01f62b223278f992af55698" filename="/exomes100/621CVAAXX_3_2_sequence.txt.gz.gpg" checksum_method="MD5" filetype="fastq" unencrypted_checksum="ae3d88e5fe0550cc7eea83aadf0f044c" quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="@">
+               <READ_LABEL>R</READ_LABEL>
+            </FILE>
+            <FILE checksum="5618ea47923ade8c62290ee3ad9335e1" filename="/exomes100/621CVAAXX_3_1_sequence.txt.gz.gpg" checksum_method="MD5" filetype="fastq" unencrypted_checksum="a7aade657817dd4b5bf9817d5fd58eb3" quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="@">
+               <READ_LABEL>F</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>
