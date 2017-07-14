@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-CURIE-23-11-2016-14:01:56:588-70" center_name="CURIE" accession="ERR1739674" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR1739674</PRIMARY_ID>
+         <SUBMITTER_ID namespace="CURIE">ena-RUN-CURIE-23-11-2016-14:01:56:588-70</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF accession="ERX1809300">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX1809300</PRIMARY_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="IC302T_RRBS.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="93f5180017b145075c4f826750a4a8d7" unencrypted_checksum="12c2b58951f82ce444432bed9a50f685"/>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>

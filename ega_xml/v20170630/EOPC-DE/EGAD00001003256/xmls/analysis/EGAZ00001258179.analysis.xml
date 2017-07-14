@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS alias="WGS_paired_EOPC-150_normal_merged.mdup.bam" broker_name="EGA" center_name="DKFZ-IBIOS" accession="ERZ405392">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ405392</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">WGS_paired_EOPC-150_normal_merged.mdup.bam</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>alignment of WGS data</TITLE>
+      <DESCRIPTION>Aligned with bwa-0.7.8 merged with bammarkduplicates-0.0.148</DESCRIPTION>
+      <STUDY_REF accession="ERP001897">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001897</PRIMARY_ID>
+            <SECONDARY_ID>EGAS00001000383</SECONDARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF accession="ERS1600026">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS1600026</PRIMARY_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT/>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE checksum="df506d269e3ec9245cc709b6cd45b1f9" checksum_method="MD5" filename="WGS_paired_EOPC-150_normal_merged.mdup.bam" filetype="bam" unencrypted_checksum="76db9f22a2374399cb640bf9c2f6ddb2"/>
+      </FILES>
+      <ANALYSIS_ATTRIBUTES>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>library_strategy</TAG>
+            <VALUE>WGS</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>library_layout</TAG>
+            <VALUE>PAIRED</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+      </ANALYSIS_ATTRIBUTES>
+   </ANALYSIS>
+</ANALYSIS_SET>

@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="ena-EXPERIMENT-NCC-06-03-2017-01:26:13:962-35" center_name="NCC" accession="ERX1930033" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX1930033</PRIMARY_ID>
+         <SUBMITTER_ID namespace="NCC">ena-EXPERIMENT-NCC-06-03-2017-01:26:13:962-35</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP016516">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP016516</PRIMARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>RNA sequencing for young ER+ breast cancer patient</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS1575422">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS1575422</PRIMARY_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>Whole Transcriptome Sequencing</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>RNA-Seq</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>TRANSCRIPTOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>Hybrid Selection</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="350"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>HiSeq 2500 System User Guide Part # 15011190 Rev. V HCS 2.2.58</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2500</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+   </EXPERIMENT>
+</EXPERIMENT_SET>
