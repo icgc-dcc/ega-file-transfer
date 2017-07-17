@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT center_name="QCMG" alias="S0436_20100917_1_FragPEBC.nopd.S16_13" accession="ERX195246" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX195246</PRIMARY_ID>
+         <SUBMITTER_ID namespace="QCMG">S0436_20100917_1_FragPEBC.nopd.S16_13</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>S0436_20100917_1_FragPEBC.nopd.S16_13</TITLE>
+      <STUDY_REF refname="Genome Landscape of Primary Pancreatic Ductal Adenocarcinoma" accession="ERP000940" refcenter="ICGC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP000940</PRIMARY_ID>
+            <SUBMITTER_ID namespace="ICGC">Genome Landscape of Primary Pancreatic Ductal Adenocarcinoma</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>AB SOLiD 4 System Fragment Multiplex Paired End Sequencing</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR refname="ICGC-ABMB-20100312-01-MD" accession="ERS206815" refcenter="QCMG">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS206815</PRIMARY_ID>
+               <SUBMITTER_ID namespace="QCMG">ICGC-ABMB-20100312-01-MD</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>Library_20100914_H</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WXS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>Hybrid Selection</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_SDEV="17" NOMINAL_LENGTH="201"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>Fragment Human All Exon 50Mb (SureSelect)</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ABI_SOLID>
+            <INSTRUMENT_MODEL>AB SOLiD 4 System</INSTRUMENT_MODEL>
+         </ABI_SOLID>
+      </PLATFORM>
+   </EXPERIMENT>
+</EXPERIMENT_SET>
