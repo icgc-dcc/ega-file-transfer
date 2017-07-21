@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-NCCRI-30-05-2013-11:30:03:413-45" center_name="NCCRI" accession="ERR285032" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR285032</PRIMARY_ID>
+         <SUBMITTER_ID namespace="NCCRI">ena-RUN-NCCRI-30-05-2013-11:30:03:413-45</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF refname="ena-EXPERIMENT-NCCRI-30-05-2013-11:30:03:412-45" refcenter="NCCRI" accession="ERX258365">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX258365</PRIMARY_ID>
+            <SUBMITTER_ID namespace="NCCRI">ena-EXPERIMENT-NCCRI-30-05-2013-11:30:03:412-45</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="120404_SN1021_0077_AD0L3KACXX/HCC25T_GATCAG_L005_R1_045.fastq.bz2" filetype="fastq" checksum_method="MD5" checksum="b94756b8bfae3f25a653fa25d46501b7" unencrypted_checksum="0b0d4d2655b776dd1d3d9d8d10b9f3d8">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="120404_SN1021_0077_AD0L3KACXX/HCC25T_GATCAG_L005_R2_045.fastq.bz2" filetype="fastq" checksum_method="MD5" checksum="658a352d18f3d8c28f34e9bb39ba4ce7" unencrypted_checksum="45decb26341252c0dba93b5e3faa0a07">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+      <RUN_ATTRIBUTES>
+         <RUN_ATTRIBUTE>
+            <TAG>ENA-SUBMISSION-TOOL</TAG>
+            <VALUE>SRA-Webin</VALUE>
+         </RUN_ATTRIBUTE>
+      </RUN_ATTRIBUTES>
+   </RUN>
+</RUN_SET>
