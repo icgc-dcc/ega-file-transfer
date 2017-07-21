@@ -1,0 +1,34 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="EXP_20170307_icgc_prostate_014" center_name="SC" accession="ERX1942136" broker_name="EGA" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX1942136</PRIMARY_ID>
+         <SUBMITTER_ID namespace="SC">EXP_20170307_icgc_prostate_014</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP001321">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001321</PRIMARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>malignant tissue (prostatectomy)</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS1581371">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS1581371</PRIMARY_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_STRATEGY>WGS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="314"/>
+            </LIBRARY_LAYOUT>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+   </EXPERIMENT>
+</EXPERIMENT_SET>
