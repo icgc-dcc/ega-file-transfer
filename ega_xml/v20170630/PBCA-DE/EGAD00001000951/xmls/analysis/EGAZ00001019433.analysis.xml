@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS alias="ANALYSIS_WXS_PAIRED_4EP34_tumor_GRCh37" center_name="DKFZ-IBIOS" broker_name="EGA" accession="ERZ021886">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ021886</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">ANALYSIS_WXS_PAIRED_4EP34_tumor_GRCh37</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>WXS_tumor_4EP34_T_merged</TITLE>
+      <DESCRIPTION>mapped to hg19 using bwa; duplicate removal using Picard</DESCRIPTION>
+      <STUDY_REF accession="ERP002285" refcenter="DKFZ-IBIOS" refname="lindt_ependymoma_2013_02_28">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP002285</PRIMARY_ID>
+            <SUBMITTER_ID namespace="DKFZ-IBIOS">lindt_ependymoma_2013_02_28</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF refname="4EP34_tumor" refcenter="DKFZ-IBIOS" label="" accession="ERS501055">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS501055</PRIMARY_ID>
+            <SUBMITTER_ID namespace="DKFZ-IBIOS">4EP34_tumor</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT>
+            <ASSEMBLY>
+               <STANDARD refname="GRCh37" accession="GCA_000001405.1"/>
+            </ASSEMBLY>
+            <SEQUENCE accession="CM000663.1" label="chr1"/>
+            <SEQUENCE accession="CM000664.1" label="chr2"/>
+            <SEQUENCE accession="CM000665.1" label="chr3"/>
+            <SEQUENCE accession="CM000666.1" label="chr4"/>
+            <SEQUENCE accession="CM000667.1" label="chr5"/>
+            <SEQUENCE accession="CM000668.1" label="chr6"/>
+            <SEQUENCE accession="CM000669.1" label="chr7"/>
+            <SEQUENCE accession="CM000670.1" label="chr8"/>
+            <SEQUENCE accession="CM000671.1" label="chr9"/>
+            <SEQUENCE accession="CM000672.1" label="chr10"/>
+            <SEQUENCE accession="CM000673.1" label="chr11"/>
+            <SEQUENCE accession="CM000674.1" label="chr12"/>
+            <SEQUENCE accession="CM000675.1" label="chr13"/>
+            <SEQUENCE accession="CM000676.1" label="chr14"/>
+            <SEQUENCE accession="CM000677.1" label="chr15"/>
+            <SEQUENCE accession="CM000678.1" label="chr16"/>
+            <SEQUENCE accession="CM000679.1" label="chr17"/>
+            <SEQUENCE accession="CM000680.1" label="chr18"/>
+            <SEQUENCE accession="CM000681.1" label="chr19"/>
+            <SEQUENCE accession="CM000682.1" label="chr20"/>
+            <SEQUENCE accession="CM000683.1" label="chr21"/>
+            <SEQUENCE accession="CM000684.1" label="chr22"/>
+            <SEQUENCE accession="CM000685.1" label="chrX"/>
+            <SEQUENCE accession="CM000686.1" label="chrY"/>
+            <SEQUENCE accession="AF347015" label="chrM"/>
+         </REFERENCE_ALIGNMENT>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE filename="WXS_PAIRED_tumor_4EP34_T_merged.bam.rmdup.bam" filetype="bam" checksum_method="MD5" checksum="ca15e18104042314757c5fc7b51bb384" unencrypted_checksum="32c0068c836b0c97b62b5e825ab42928"/>
+      </FILES>
+      <ANALYSIS_ATTRIBUTES>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>library_strategy</TAG>
+            <VALUE>WXS</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>library_layout</TAG>
+            <VALUE>PAIRED</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+      </ANALYSIS_ATTRIBUTES>
+   </ANALYSIS>
+</ANALYSIS_SET>
