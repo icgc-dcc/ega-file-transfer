@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="ena-EXPERIMENT-NIBMG-13-04-2012-08:50:57:802-14" accession="ERX085639" center_name="NIBMG" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX085639</PRIMARY_ID>
+         <SUBMITTER_ID namespace="NIBMG">ena-EXPERIMENT-NIBMG-13-04-2012-08:50:57:802-14</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP001297" refname="ICGC_INDIAPROJECT_1" refcenter="NIBMG">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001297</PRIMARY_ID>
+            <SUBMITTER_ID namespace="NIBMG">ICGC_INDIAPROJECT_1</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION/>
+         <SAMPLE_DESCRIPTOR refname="GBC_00080111_2" refcenter="NIBMG" accession="ERS105568">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS105568</PRIMARY_ID>
+               <SUBMITTER_ID namespace="NIBMG">GBC_00080111_2</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>TruSeq</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>OTHER</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>unspecified</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="250"/>
+            </LIBRARY_LAYOUT>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+      <EXPERIMENT_ATTRIBUTES>
+         <EXPERIMENT_ATTRIBUTE>
+            <TAG>ENA-SUBMISSION-TOOL</TAG>
+            <VALUE>SRA-Webin</VALUE>
+         </EXPERIMENT_ATTRIBUTE>
+      </EXPERIMENT_ATTRIBUTES>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

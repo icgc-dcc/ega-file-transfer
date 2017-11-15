@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="ena-EXPERIMENT-NIBMG-10-11-2014-09:05:45:992-59" center_name="NIBMG" accession="ERX624567" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX624567</PRIMARY_ID>
+         <SUBMITTER_ID namespace="NIBMG">ena-EXPERIMENT-NIBMG-10-11-2014-09:05:45:992-59</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP008590" refname="ena-STUDY-NIBMG-03-11-2014-12:27:41:397-617" refcenter="NIBMG">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP008590</PRIMARY_ID>
+            <SUBMITTER_ID namespace="NIBMG">ena-STUDY-NIBMG-03-11-2014-12:27:41:397-617</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>Exome Sequencing</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR refname="GBC_00860111_2" refcenter="NIBMG" accession="ERS579610">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS579610</PRIMARY_ID>
+               <SUBMITTER_ID namespace="NIBMG">GBC_00860111_2</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>TruSeq</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WXS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>other</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="250"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>TruSeq DNA sample preparation and Exome enrichment</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>
