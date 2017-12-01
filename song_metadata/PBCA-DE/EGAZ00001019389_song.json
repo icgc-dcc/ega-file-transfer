@@ -1,0 +1,46 @@
+{
+    "analysisId": "EGAZ00001019389", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "libraryStrategy": "WXS", 
+        "referenceGenome": "GRCh37"
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "1a4b4a3519c8f36fd242aa5a531c0f22", 
+            "fileName": "bundle.EGAZ00001019389.xml", 
+            "fileSize": 7512, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "edfbd56b4a59952d91db287acb5cb5a0", 
+            "fileName": "edfbd56b4a59952d91db287acb5cb5a0.WXS_PAIRED_blood_4EP32_T_merged.bam.rmdup.bam", 
+            "fileSize": 3694795529, 
+            "fileType": "BAM"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "c1d44d26262f470c5cef10f95c9d1211", 
+            "fileName": "edfbd56b4a59952d91db287acb5cb5a0.WXS_PAIRED_blood_4EP32_T_merged.bam.rmdup.bam.bai", 
+            "fileSize": 2718352, 
+            "fileType": "BAI"
+        }
+    ], 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "female", 
+                "donorSubmitterId": "4EP32"
+            }, 
+            "sampleSubmitterId": "4EP32_control", 
+            "sampleType": "DNA", 
+            "specimen": {
+                "specimenClass": "Normal", 
+                "specimenSubmitterId": "4EP32_control", 
+                "specimenType": "Normal - blood derived"
+            }
+        }
+    ]
+}

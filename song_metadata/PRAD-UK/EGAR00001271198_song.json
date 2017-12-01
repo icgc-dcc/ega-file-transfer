@@ -1,0 +1,41 @@
+{
+    "analysisId": "EGAR00001271198", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "aligned": true, 
+        "insertSize": 315, 
+        "libraryStrategy": "WGS", 
+        "pairedEnd": true
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "9ffc2e08e98811a60964d31da5f01af1", 
+            "fileName": "bundle.EGAR00001271198.xml", 
+            "fileSize": 4427, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "08c821f21bff45d1199c664b5a54d7ca", 
+            "fileName": "08c821f21bff45d1199c664b5a54d7ca.180188_icgc.bam", 
+            "fileSize": 87022176854, 
+            "fileType": "BAM"
+        }
+    ], 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "male", 
+                "donorSubmitterId": "0059_CRUK_PC_0059"
+            }, 
+            "sampleSubmitterId": "0059_CRUK_PC_0059_Blood_DNA", 
+            "sampleType": "DNA", 
+            "specimen": {
+                "specimenClass": "Normal", 
+                "specimenSubmitterId": "0059_CRUK_PC_0059_Blood", 
+                "specimenType": "Normal - blood derived"
+            }
+        }
+    ]
+}

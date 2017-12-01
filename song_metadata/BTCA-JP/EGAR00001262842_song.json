@@ -1,0 +1,48 @@
+{
+    "analysisId": "EGAR00001262842", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "aligned": true, 
+        "insertSize": 200, 
+        "libraryStrategy": "WXS", 
+        "pairedEnd": true
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "da6dc2d4eb169cc7af4b0b1566c20fce", 
+            "fileName": "bundle.EGAR00001262842.xml", 
+            "fileSize": 3184, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "51ade3f6ea3bdcfb84913aa60fca2b5c", 
+            "fileName": "51ade3f6ea3bdcfb84913aa60fca2b5c.BD202T_CGATGT_L006_R1_027.fastq.bz2", 
+            "fileSize": 24157359, 
+            "fileType": "FASTQ"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "d987952f8883b64b01b98ef39d33ff6e", 
+            "fileName": "d987952f8883b64b01b98ef39d33ff6e.BD202T_CGATGT_L006_R2_027.fastq.bz2", 
+            "fileSize": 25074783, 
+            "fileType": "FASTQ"
+        }
+    ], 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "male", 
+                "donorSubmitterId": "BD202"
+            }, 
+            "sampleSubmitterId": "BD202T", 
+            "sampleType": "DNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "BD202T", 
+                "specimenType": "Primary tumour - solid tissue"
+            }
+        }
+    ]
+}

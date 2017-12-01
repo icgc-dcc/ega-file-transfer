@@ -1,0 +1,46 @@
+{
+    "analysisId": "EGAZ00001019382", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "libraryStrategy": "WXS", 
+        "referenceGenome": "GRCh37"
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "724fa2a07dbc7de96c127ec6f2321dac", 
+            "fileName": "bundle.EGAZ00001019382.xml", 
+            "fileSize": 7512, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "8e9b8bfc369e76baf6ae347c286e82e0", 
+            "fileName": "8e9b8bfc369e76baf6ae347c286e82e0.WXS_PAIRED_blood_4EP23_T_merged.bam.rmdup.bam", 
+            "fileSize": 6502270921, 
+            "fileType": "BAM"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "af3aa61a5295480a14adc4315a032d7f", 
+            "fileName": "8e9b8bfc369e76baf6ae347c286e82e0.WXS_PAIRED_blood_4EP23_T_merged.bam.rmdup.bam.bai", 
+            "fileSize": 2810264, 
+            "fileType": "BAI"
+        }
+    ], 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "male", 
+                "donorSubmitterId": "4EP23"
+            }, 
+            "sampleSubmitterId": "4EP23_control", 
+            "sampleType": "DNA", 
+            "specimen": {
+                "specimenClass": "Normal", 
+                "specimenSubmitterId": "4EP23_control", 
+                "specimenType": "Normal - blood derived"
+            }
+        }
+    ]
+}

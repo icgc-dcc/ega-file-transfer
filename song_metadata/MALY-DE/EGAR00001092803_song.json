@@ -1,0 +1,41 @@
+{
+    "analysisId": "EGAR00001092803", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "aligned": true, 
+        "insertSize": 197, 
+        "libraryStrategy": "RNA-Seq", 
+        "pairedEnd": true
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "dcafdf5931a4a70f3a550dc669e68cca", 
+            "fileName": "bundle.EGAR00001092803.xml", 
+            "fileSize": 3470, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "d9854476ee21d4dc4019f65e8e6abc86", 
+            "fileName": "d9854476ee21d4dc4019f65e8e6abc86.RNA-Seq_tumor_4142267_RNA.1000genomes.complete.bam", 
+            "fileSize": 12758451584, 
+            "fileType": "BAM"
+        }
+    ], 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "male", 
+                "donorSubmitterId": "4142267"
+            }, 
+            "sampleSubmitterId": "tumor_4142267_RNA", 
+            "sampleType": "RNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "tumor_4142267", 
+                "specimenType": "Primary tumour - blood derived (bone marrow)"
+            }
+        }
+    ]
+}

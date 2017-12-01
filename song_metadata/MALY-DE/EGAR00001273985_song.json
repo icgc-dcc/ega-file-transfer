@@ -1,0 +1,48 @@
+{
+    "analysisId": "EGAR00001273985", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "aligned": true, 
+        "insertSize": 192, 
+        "libraryStrategy": "RNA-Seq", 
+        "pairedEnd": true
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "e218cf663aafe837305cafcb2ee66d3b", 
+            "fileName": "bundle.EGAR00001273985.xml", 
+            "fileSize": 5553, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "21087be6236c2c1ff3fa30d0ffd35ddd", 
+            "fileName": "21087be6236c2c1ff3fa30d0ffd35ddd.RNA-PAIRED-tumor_4194218_RNA-SN758_0091_BC0YEEACXX_5_GTCCGC-R1.fastq.gz", 
+            "fileSize": 7504887999, 
+            "fileType": "FASTQ"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "6e8b76ff15b444c379db54b1f1d8edce", 
+            "fileName": "6e8b76ff15b444c379db54b1f1d8edce.RNA-PAIRED-tumor_4194218_RNA-SN758_0091_BC0YEEACXX_5_GTCCGC-R2.fastq.gz", 
+            "fileSize": 7664368484, 
+            "fileType": "FASTQ"
+        }
+    ], 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "male", 
+                "donorSubmitterId": "4194218"
+            }, 
+            "sampleSubmitterId": "tumor_4194218_RNA", 
+            "sampleType": "RNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "tumor_4194218", 
+                "specimenType": "Primary tumour - lymph node"
+            }
+        }
+    ]
+}

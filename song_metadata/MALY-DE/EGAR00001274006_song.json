@@ -1,0 +1,48 @@
+{
+    "analysisId": "EGAR00001274006", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "aligned": true, 
+        "insertSize": 197, 
+        "libraryStrategy": "RNA-Seq", 
+        "pairedEnd": true
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "c68baaf31ac23232ad1307d42fe26ea0", 
+            "fileName": "bundle.EGAR00001274006.xml", 
+            "fileSize": 5557, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "1fa1a5c8b02870856f0bcf6364b0e3c3", 
+            "fileName": "1fa1a5c8b02870856f0bcf6364b0e3c3.RNA-PAIRED-tumor_4142267_RNA-SN758_0091_BC0YEEACXX_7_CCGTCC-R1.fastq.gz", 
+            "fileSize": 7528344944, 
+            "fileType": "FASTQ"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "19cad628a6a96dcf5ce0849a20ff3d72", 
+            "fileName": "19cad628a6a96dcf5ce0849a20ff3d72.RNA-PAIRED-tumor_4142267_RNA-SN758_0091_BC0YEEACXX_7_CCGTCC-R2.fastq.gz", 
+            "fileSize": 7576956947, 
+            "fileType": "FASTQ"
+        }
+    ], 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "male", 
+                "donorSubmitterId": "4142267"
+            }, 
+            "sampleSubmitterId": "tumor_4142267_RNA", 
+            "sampleType": "RNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "tumor_4142267", 
+                "specimenType": "Primary tumour - blood derived (bone marrow)"
+            }
+        }
+    ]
+}

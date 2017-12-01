@@ -1,0 +1,48 @@
+{
+    "analysisId": "EGAR00001269799", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "aligned": true, 
+        "insertSize": 350, 
+        "libraryStrategy": "WGS", 
+        "pairedEnd": true
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "173c2d545ff2da71aa9de0519ba12c3e", 
+            "fileName": "bundle.EGAR00001269799.xml", 
+            "fileSize": 3517, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "95c9eaf3ca07fda28c3adf9426df9453", 
+            "fileName": "95c9eaf3ca07fda28c3adf9426df9453.ML_09_T_102617_R2.fastq.gz", 
+            "fileSize": 42741771086, 
+            "fileType": "FASTQ"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "e00f59e91cb050ff368ae8fe8b39e773", 
+            "fileName": "e00f59e91cb050ff368ae8fe8b39e773.ML_09_T_102617_R1.fastq.gz", 
+            "fileSize": 40876630744, 
+            "fileType": "FASTQ"
+        }
+    ], 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "male", 
+                "donorSubmitterId": "ML_09"
+            }, 
+            "sampleSubmitterId": "ML_09_T_01", 
+            "sampleType": "DNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "ML_09_T", 
+                "specimenType": "Recurrent tumour - solid tissue"
+            }
+        }
+    ]
+}

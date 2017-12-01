@@ -1,0 +1,48 @@
+{
+    "analysisId": "EGAR00001269841", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "aligned": true, 
+        "insertSize": 350, 
+        "libraryStrategy": "WGS", 
+        "pairedEnd": true
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "34f3c5cb5489dc7bf973d77c962707d9", 
+            "fileName": "bundle.EGAR00001269841.xml", 
+            "fileSize": 3521, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "07f16d168d2c53cdfa08deab39c14220", 
+            "fileName": "07f16d168d2c53cdfa08deab39c14220.ML_53_T_277803_R2.fastq.gz", 
+            "fileSize": 43149681661, 
+            "fileType": "FASTQ"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "90c125cfce348af0334d66458cf9b3bb", 
+            "fileName": "90c125cfce348af0334d66458cf9b3bb.ML_53_T_277803_R1.fastq.gz", 
+            "fileSize": 40091275358, 
+            "fileType": "FASTQ"
+        }
+    ], 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "male", 
+                "donorSubmitterId": "ML_53"
+            }, 
+            "sampleSubmitterId": "ML_53_T_01", 
+            "sampleType": "DNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "ML_53_T", 
+                "specimenType": "Metastatic tumour - metastasis to distant location"
+            }
+        }
+    ]
+}

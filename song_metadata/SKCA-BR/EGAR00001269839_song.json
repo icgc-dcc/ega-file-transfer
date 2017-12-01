@@ -1,0 +1,48 @@
+{
+    "analysisId": "EGAR00001269839", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "aligned": true, 
+        "insertSize": 350, 
+        "libraryStrategy": "WGS", 
+        "pairedEnd": true
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "6beef48553d0975452b0420629099a0b", 
+            "fileName": "bundle.EGAR00001269839.xml", 
+            "fileSize": 3523, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "7589110945ee54db52f784e1def86861", 
+            "fileName": "7589110945ee54db52f784e1def86861.ML_52_T_684833_R2.fastq.gz", 
+            "fileSize": 40795007356, 
+            "fileType": "FASTQ"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "3fe03cb924ac8ca9dd071f8d623ce277", 
+            "fileName": "3fe03cb924ac8ca9dd071f8d623ce277.ML_52_T_684833_R1.fastq.gz", 
+            "fileSize": 38712907494, 
+            "fileType": "FASTQ"
+        }
+    ], 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "female", 
+                "donorSubmitterId": "ML_52"
+            }, 
+            "sampleSubmitterId": "ML_52_T_01", 
+            "sampleType": "DNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "ML_52_T", 
+                "specimenType": "Metastatic tumour - lymph node"
+            }
+        }
+    ]
+}

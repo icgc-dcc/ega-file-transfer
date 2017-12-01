@@ -1,0 +1,46 @@
+{
+    "analysisId": "EGAZ00001014966", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "libraryStrategy": "RNA-Seq", 
+        "referenceGenome": "GRCh37"
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "58a7789d24e43fd5784672bacd738597", 
+            "fileName": "bundle.EGAZ00001014966.xml", 
+            "fileSize": 5100, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "b4e8cec7e81c9a7b9e8e5167adc587a1", 
+            "fileName": "b4e8cec7e81c9a7b9e8e5167adc587a1.RNA-Seq_tumor_4139696_RNA.1000genomes.complete.bam", 
+            "fileSize": 11552167362, 
+            "fileType": "BAM"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "7d731f76a5a0f08ce5229700040fa87b", 
+            "fileName": "b4e8cec7e81c9a7b9e8e5167adc587a1.RNA-Seq_tumor_4139696_RNA.1000genomes.complete.bam.bai", 
+            "fileSize": 4628024, 
+            "fileType": "BAI"
+        }
+    ], 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "male", 
+                "donorSubmitterId": "4139696"
+            }, 
+            "sampleSubmitterId": "tumor_4139696_RNA", 
+            "sampleType": "RNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "tumor_4139696", 
+                "specimenType": "Primary tumour - lymph node"
+            }
+        }
+    ]
+}

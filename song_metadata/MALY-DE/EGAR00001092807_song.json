@@ -1,0 +1,41 @@
+{
+    "analysisId": "EGAR00001092807", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "aligned": true, 
+        "insertSize": 199, 
+        "libraryStrategy": "RNA-Seq", 
+        "pairedEnd": true
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "7cbd6af0856ef47e4628fc9fb430ba7d", 
+            "fileName": "bundle.EGAR00001092807.xml", 
+            "fileSize": 3474, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "d80c6f9e6b633ed6277cbdc0690fc868", 
+            "fileName": "d80c6f9e6b633ed6277cbdc0690fc868.RNA-Seq_tumor_4189200_RNA.1000genomes.complete.bam", 
+            "fileSize": 14258960922, 
+            "fileType": "BAM"
+        }
+    ], 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "female", 
+                "donorSubmitterId": "4189200"
+            }, 
+            "sampleSubmitterId": "tumor_4189200_RNA", 
+            "sampleType": "RNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "tumor_4189200", 
+                "specimenType": "Primary tumour - lymph node"
+            }
+        }
+    ]
+}

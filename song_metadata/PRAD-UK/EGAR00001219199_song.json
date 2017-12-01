@@ -1,0 +1,41 @@
+{
+    "analysisId": "EGAR00001219199", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "aligned": true, 
+        "insertSize": 315, 
+        "libraryStrategy": "WGS", 
+        "pairedEnd": true
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "fec1604d8243b25f383dc6d7168df1f8", 
+            "fileName": "bundle.EGAR00001219199.xml", 
+            "fileSize": 4158, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "822dc8fc725f01cdbd1c8f59e9dcc1fe", 
+            "fileName": "822dc8fc725f01cdbd1c8f59e9dcc1fe.180061_icgc.bam", 
+            "fileSize": 87574744070, 
+            "fileType": "BAM"
+        }
+    ], 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "male", 
+                "donorSubmitterId": "A21-0096_CRUK_PC_0096"
+            }, 
+            "sampleSubmitterId": "A21A-0096_CRUK_PC_0096_M1_DNA", 
+            "sampleType": "DNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "A21A-0096_CRUK_PC_0096_M1", 
+                "specimenType": "Metastatic tumour - metastasis to distant location"
+            }
+        }
+    ]
+}

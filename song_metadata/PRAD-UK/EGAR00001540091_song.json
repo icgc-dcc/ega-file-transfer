@@ -1,0 +1,41 @@
+{
+    "analysisId": "EGAR00001540091", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "aligned": true, 
+        "insertSize": 452, 
+        "libraryStrategy": "WGS", 
+        "pairedEnd": true
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "a6cde5bf2d5581a895bb5d2bc80590cc", 
+            "fileName": "bundle.EGAR00001540091.xml", 
+            "fileSize": 4382, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "c63918f0ff134385792c3c20d5ebc692", 
+            "fileName": "c63918f0ff134385792c3c20d5ebc692.20170307_icgc_prostate_102.bam", 
+            "fileSize": 74385779159, 
+            "fileType": "BAM"
+        }
+    ], 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "male", 
+                "donorSubmitterId": "0177_CRUK_PC_0177"
+            }, 
+            "sampleSubmitterId": "0177_CRUK_PC_0177_T1_DNA", 
+            "sampleType": "DNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "0177_CRUK_PC_0177_T1", 
+                "specimenType": "Primary tumour - solid tissue"
+            }
+        }
+    ]
+}

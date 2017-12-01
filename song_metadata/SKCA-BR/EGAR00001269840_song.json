@@ -1,0 +1,48 @@
+{
+    "analysisId": "EGAR00001269840", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "aligned": true, 
+        "insertSize": 350, 
+        "libraryStrategy": "WGS", 
+        "pairedEnd": true
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "5646ef2410961d86fa73e51d1c788e06", 
+            "fileName": "bundle.EGAR00001269840.xml", 
+            "fileSize": 3525, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "1faa53d67502de155bddc76df2472989", 
+            "fileName": "1faa53d67502de155bddc76df2472989.ML_53_S_399264_R1.fastq.gz", 
+            "fileSize": 39909480102, 
+            "fileType": "FASTQ"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "779b5ab808a5c1bcbd35e2d8a7b0385e", 
+            "fileName": "779b5ab808a5c1bcbd35e2d8a7b0385e.ML_53_S_399264_R2.fastq.gz", 
+            "fileSize": 42641118480, 
+            "fileType": "FASTQ"
+        }
+    ], 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "male", 
+                "donorSubmitterId": "ML_53"
+            }, 
+            "sampleSubmitterId": "ML_53_S_01", 
+            "sampleType": "DNA", 
+            "specimen": {
+                "specimenClass": "Normal", 
+                "specimenSubmitterId": "ML_53_S", 
+                "specimenType": "Normal - blood derived"
+            }
+        }
+    ]
+}

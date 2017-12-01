@@ -1,0 +1,48 @@
+{
+    "analysisId": "EGAR00001329113", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "aligned": true, 
+        "insertSize": 350, 
+        "libraryStrategy": "WGS", 
+        "pairedEnd": true
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "498bc4369267de352ae9cf71c8810b71", 
+            "fileName": "bundle.EGAR00001329113.xml", 
+            "fileSize": 3472, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "0250e01011ea8c78b2fbe95697bcf528", 
+            "fileName": "0250e01011ea8c78b2fbe95697bcf528.ML_75_T_489922_R1.fastq.gz", 
+            "fileSize": 36249517694, 
+            "fileType": "FASTQ"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "0e908d4c120df45110e00625d6dcf32e", 
+            "fileName": "0e908d4c120df45110e00625d6dcf32e.ML_75_T_489922_R2.fastq.gz", 
+            "fileSize": 37793156334, 
+            "fileType": "FASTQ"
+        }
+    ], 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "female", 
+                "donorSubmitterId": "ML_75"
+            }, 
+            "sampleSubmitterId": "ML_75_T_01", 
+            "sampleType": "DNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "ML_75_T", 
+                "specimenType": "Primary tumour - solid tissue"
+            }
+        }
+    ]
+}

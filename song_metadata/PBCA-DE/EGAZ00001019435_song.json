@@ -1,0 +1,46 @@
+{
+    "analysisId": "EGAZ00001019435", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "libraryStrategy": "WXS", 
+        "referenceGenome": "GRCh37"
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "c72abe4edc3a02071a2099bb4f45f85f", 
+            "fileName": "bundle.EGAZ00001019435.xml", 
+            "fileSize": 7489, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "b6ef8c706644ad7536e140e4f80e95ec", 
+            "fileName": "b6ef8c706644ad7536e140e4f80e95ec.WXS_PAIRED_tumor_4EP3_T_merged.bam.rmdup.bam", 
+            "fileSize": 7581360552, 
+            "fileType": "BAM"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "3a75aed1f3410bc466d4a5267d8a0b88", 
+            "fileName": "b6ef8c706644ad7536e140e4f80e95ec.WXS_PAIRED_tumor_4EP3_T_merged.bam.rmdup.bam.bai", 
+            "fileSize": 2889416, 
+            "fileType": "BAI"
+        }
+    ], 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "male", 
+                "donorSubmitterId": "4EP3"
+            }, 
+            "sampleSubmitterId": "4EP3_tumor", 
+            "sampleType": "DNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "4EP3_tumor", 
+                "specimenType": "Primary tumour - solid tissue"
+            }
+        }
+    ]
+}

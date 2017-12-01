@@ -1,0 +1,40 @@
+{
+    "analysisId": "EGAR00001501080", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "aligned": false, 
+        "libraryStrategy": "Bisulfite-Seq", 
+        "pairedEnd": false
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "599a16bdd95ab256353313dd5bebaeab", 
+            "fileName": "bundle.EGAR00001501080.xml", 
+            "fileSize": 3832, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "4526bded932708594e81bdfdb35a94c1", 
+            "fileName": "4526bded932708594e81bdfdb35a94c1.IC112T_RRBS.fastq.gz", 
+            "fileSize": 1153273469, 
+            "fileType": "FASTQ"
+        }
+    ], 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "male", 
+                "donorSubmitterId": "IC112"
+            }, 
+            "sampleSubmitterId": "IC112T_WGS", 
+            "sampleType": "DNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "IC112T", 
+                "specimenType": "Primary tumour - solid tissue"
+            }
+        }
+    ]
+}
