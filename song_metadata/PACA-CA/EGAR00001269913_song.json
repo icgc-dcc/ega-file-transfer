@@ -1,0 +1,50 @@
+{
+    "analysisId": "EGAR00001269913", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "insertSize": 250, 
+        "libraryStrategy": "RNA-Seq", 
+        "pairedEnd": true
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "31f8f85c1cab2a88412ced4ef1b24d29", 
+            "fileName": "bundle.EGAR00001269913.xml", 
+            "fileSize": 5672, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "54a95a8364c14ae1fdcbc633a119f6cc", 
+            "fileName": "54a95a8364c14ae1fdcbc633a119f6cc.SWID_258318_MPCC_0020_Pa_C_PE_250_MR_120724_SN1068_0093_BD0Y2DACXX_NoIndex_L002_R1_001.fastq.gz", 
+            "fileSize": 19303608879, 
+            "fileType": "FASTQ"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "849756194d2e5a5a90de2d09b04c4707", 
+            "fileName": "849756194d2e5a5a90de2d09b04c4707.SWID_258318_MPCC_0020_Pa_C_PE_250_MR_120724_SN1068_0093_BD0Y2DACXX_NoIndex_L002_R2_001.fastq.gz", 
+            "fileSize": 17400391996, 
+            "fileType": "FASTQ"
+        }
+    ], 
+    "info": {
+        "isPcawg": false
+    }, 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "unspecified", 
+                "donorSubmitterId": "MPCC_0020"
+            }, 
+            "sampleSubmitterId": "MPCC_0020_Pa_C", 
+            "sampleType": "RNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "MPCC_0020_Pa_P", 
+                "specimenType": "Primary tumour - solid tissue"
+            }
+        }
+    ]
+}

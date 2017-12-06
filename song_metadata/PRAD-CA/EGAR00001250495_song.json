@@ -1,0 +1,50 @@
+{
+    "analysisId": "EGAR00001250495", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "insertSize": 300, 
+        "libraryStrategy": "WGS", 
+        "pairedEnd": true
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "e847dcc7a488e12f25802ded47e410a9", 
+            "fileName": "bundle.EGAR00001250495.xml", 
+            "fileSize": 9006, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "85bb1f060a50ecf4a78231722e2fa46d", 
+            "fileName": "85bb1f060a50ecf4a78231722e2fa46d.CPCG_0006_Ly_R_PE_300_WG_110929_SN203_0126_BD082FACXX_7_NoIndex_R1.fastq.gz", 
+            "fileSize": 20139067438, 
+            "fileType": "FASTQ"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "147abac7273e352992077828fdaf9699", 
+            "fileName": "147abac7273e352992077828fdaf9699.CPCG_0006_Ly_R_PE_300_WG_110929_SN203_0126_BD082FACXX_7_NoIndex_R2.fastq.gz", 
+            "fileSize": 20247559357, 
+            "fileType": "FASTQ"
+        }
+    ], 
+    "info": {
+        "isPcawg": false
+    }, 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "male", 
+                "donorSubmitterId": "CPCG0006"
+            }, 
+            "sampleSubmitterId": "CPCG0006-B1", 
+            "sampleType": "DNA", 
+            "specimen": {
+                "specimenClass": "Normal", 
+                "specimenSubmitterId": "CPCG0006-B1", 
+                "specimenType": "Normal - blood derived"
+            }
+        }
+    ]
+}

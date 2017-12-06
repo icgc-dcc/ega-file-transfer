@@ -1,0 +1,50 @@
+{
+    "analysisId": "EGAR00001194950", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "insertSize": 200, 
+        "libraryStrategy": "WXS", 
+        "pairedEnd": true
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "68586486d02a3cf9209132d00c7c4bd8", 
+            "fileName": "bundle.EGAR00001194950.xml", 
+            "fileSize": 5865, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "db062c19669b370fc86c135ccd899364", 
+            "fileName": "db062c19669b370fc86c135ccd899364.CCC67T_CAGATC_L003_R1_033.fastq.bz2", 
+            "fileSize": 123106424, 
+            "fileType": "FASTQ"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "180c7df783d94a02d6fecb6dda7c4e61", 
+            "fileName": "180c7df783d94a02d6fecb6dda7c4e61.CCC67T_CAGATC_L003_R2_033.fastq.bz2", 
+            "fileSize": 126088880, 
+            "fileType": "FASTQ"
+        }
+    ], 
+    "info": {
+        "isPcawg": false
+    }, 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "female", 
+                "donorSubmitterId": "CCC67"
+            }, 
+            "sampleSubmitterId": "CCC67T", 
+            "sampleType": "DNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "CCC67T", 
+                "specimenType": "Primary tumour - solid tissue"
+            }
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "analysisId": "EGAR00001117179", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "insertSize": 200, 
+        "libraryStrategy": "WXS", 
+        "pairedEnd": true
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "2919aa1dd9a208b50f227e7848ac4fd9", 
+            "fileName": "bundle.EGAR00001117179.xml", 
+            "fileSize": 6237, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "73dd46368b608fa0e70763a62576bec9", 
+            "fileName": "73dd46368b608fa0e70763a62576bec9.HCC102T_TTAGGC_L001_R2_035.fastq.bz2", 
+            "fileSize": 148197939, 
+            "fileType": "FASTQ"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "6b0ab0276a59c71a7c3f1baf7d81a8e5", 
+            "fileName": "6b0ab0276a59c71a7c3f1baf7d81a8e5.HCC102T_TTAGGC_L001_R1_035.fastq.bz2", 
+            "fileSize": 143743887, 
+            "fileType": "FASTQ"
+        }
+    ], 
+    "info": {
+        "isPcawg": false
+    }, 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "male", 
+                "donorSubmitterId": "HCC102"
+            }, 
+            "sampleSubmitterId": "HCC102T", 
+            "sampleType": "DNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "HCC102T", 
+                "specimenType": "Primary tumour - solid tissue"
+            }
+        }
+    ]
+}

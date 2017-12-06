@@ -1,0 +1,50 @@
+{
+    "analysisId": "EGAZ00001016385", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "aligned": true, 
+        "libraryStrategy": "RNA-Seq", 
+        "referenceGenome": "GRCh37"
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "93b4c5805359c7df71eed1fe5840ac2b", 
+            "fileName": "bundle.EGAZ00001016385.xml", 
+            "fileSize": 9246, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "ed856e32da6b8d16e6b7593f3e1c3adf", 
+            "fileName": "ed856e32da6b8d16e6b7593f3e1c3adf.B00E4HE_accepted_hits.bam", 
+            "fileSize": 3968238054, 
+            "fileType": "BAM"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "6e60a7d23886bc15521c2bfa140ff0b3", 
+            "fileName": "ed856e32da6b8d16e6b7593f3e1c3adf.B00E4HE_accepted_hits.bam.bai", 
+            "fileSize": 2665352, 
+            "fileType": "BAI"
+        }
+    ], 
+    "info": {
+        "isPcawg": false
+    }, 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "female", 
+                "donorSubmitterId": "C0006"
+            }, 
+            "sampleSubmitterId": "C0006RT", 
+            "sampleType": "RNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "C0006RT", 
+                "specimenType": "Primary tumour - solid tissue"
+            }
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "analysisId": "EGAZ00001016503", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "aligned": true, 
+        "libraryStrategy": "RNA-Seq", 
+        "referenceGenome": "GRCh37"
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "2c142a99ea436ae62a4ed04511ee50c4", 
+            "fileName": "bundle.EGAZ00001016503.xml", 
+            "fileSize": 9247, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "3f7bf4086bccb8240836d3cbdde59acc", 
+            "fileName": "3f7bf4086bccb8240836d3cbdde59acc.B00EY1G_accepted_hits.bam", 
+            "fileSize": 3049244218, 
+            "fileType": "BAM"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "17be2c90b17a77e1330d3fa7d6dee9ca", 
+            "fileName": "3f7bf4086bccb8240836d3cbdde59acc.B00EY1G_accepted_hits.bam.bai", 
+            "fileSize": 2614872, 
+            "fileType": "BAI"
+        }
+    ], 
+    "info": {
+        "isPcawg": false
+    }, 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "female", 
+                "donorSubmitterId": "C0118"
+            }, 
+            "sampleSubmitterId": "C0118RA", 
+            "sampleType": "RNA", 
+            "specimen": {
+                "specimenClass": "Adjacent normal", 
+                "specimenSubmitterId": "C0118RA", 
+                "specimenType": "Normal - tissue adjacent to primary"
+            }
+        }
+    ]
+}

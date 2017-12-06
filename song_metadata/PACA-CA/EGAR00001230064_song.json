@@ -1,0 +1,43 @@
+{
+    "analysisId": "EGAR00001230064", 
+    "analysisType": "sequencingRead", 
+    "experiment": {
+        "insertSize": 250, 
+        "libraryStrategy": "WXS", 
+        "pairedEnd": true
+    }, 
+    "file": [
+        {
+            "fileAccess": "open", 
+            "fileMd5sum": "38a8ffcac170a3de8478e305d8d3bac3", 
+            "fileName": "bundle.EGAR00001230064.xml", 
+            "fileSize": 5293, 
+            "fileType": "XML"
+        }, 
+        {
+            "fileAccess": "controlled", 
+            "fileMd5sum": "1a5168c6eaf36ff7e45bf5642661fb3d", 
+            "fileName": "1a5168c6eaf36ff7e45bf5642661fb3d.PCSI_0005_Pa_X_PE_250_EX_NoIndex_8_091214_i278_616JH_LT.bam", 
+            "fileSize": 1844087924, 
+            "fileType": "BAM"
+        }
+    ], 
+    "info": {
+        "isPcawg": false
+    }, 
+    "sample": [
+        {
+            "donor": {
+                "donorGender": "male", 
+                "donorSubmitterId": "PCSI_0005"
+            }, 
+            "sampleSubmitterId": "PCSI_0005_Pa_X", 
+            "sampleType": "DNA", 
+            "specimen": {
+                "specimenClass": "Tumour", 
+                "specimenSubmitterId": "PCSI_0005_Pa_X", 
+                "specimenType": "Xenograft - derived from primary tumour"
+            }
+        }
+    ]
+}
