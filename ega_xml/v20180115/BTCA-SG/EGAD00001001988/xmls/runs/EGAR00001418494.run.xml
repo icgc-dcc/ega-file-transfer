@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-DUKE-NUS-21-03-2016-03:50:22:296-23" center_name="DUKE-NUS" accession="ERR1333207" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR1333207</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DUKE-NUS">ena-RUN-DUKE-NUS-21-03-2016-03:50:22:296-23</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF accession="ERX1404799">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX1404799</PRIMARY_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>1</READ_INDEX>
+               <READ_LABEL>R2</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Reverse</READ_TYPE>
+               <RELATIVE_ORDER follows_read_index="0"/>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>HiSeq X Ten</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="EGAS00001001653/T_CCA_TH_17_H2HFY_L006_R1.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="f7c95fb2d324c2f4b949a1d5b6c76c10" unencrypted_checksum="f93c05ddefbe0ab0be1ee72c8fe89b9f">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="EGAS00001001653/T_CCA_TH_17_H2HFY_L006_R2.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="f2b53681cfabbd7edf8e97dec7be4e76" unencrypted_checksum="dca9b0896aba586d58d2ed5b3d90f970">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>

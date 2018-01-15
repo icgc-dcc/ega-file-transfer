@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-DUKE-NUS-21-03-2016-03:50:22:296-9" center_name="DUKE-NUS" accession="ERR1333193" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR1333193</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DUKE-NUS">ena-RUN-DUKE-NUS-21-03-2016-03:50:22:296-9</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF accession="ERX1404785">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX1404785</PRIMARY_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>1</READ_INDEX>
+               <READ_LABEL>R2</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Reverse</READ_TYPE>
+               <RELATIVE_ORDER follows_read_index="0"/>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>HiSeq X Ten</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="EGAS00001001653/N_CCA_TH_14_H2HGW_L006_R1.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="dca2da775cc3cbd7f2328a991e08ad80" unencrypted_checksum="824fb9f8975e55deea027ddd124b0c7b">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="EGAS00001001653/N_CCA_TH_14_H2HGW_L006_R2.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="d5762185468d7a4fb21ce1375228d94f" unencrypted_checksum="e2fc21dc21de19598d6dee22e269fb76">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>

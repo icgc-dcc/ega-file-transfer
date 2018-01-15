@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-DUKE-NUS-04-03-2016-07:19:46:659-9" center_name="DUKE-NUS" accession="ERR1299469" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR1299469</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DUKE-NUS">ena-RUN-DUKE-NUS-04-03-2016-07:19:46:659-9</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF refname="ena-EXPERIMENT-DUKE-NUS-04-03-2016-07:19:46:659-9" refcenter="DUKE-NUS" accession="ERX1371128">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX1371128</PRIMARY_ID>
+            <SUBMITTER_ID namespace="DUKE-NUS">ena-EXPERIMENT-DUKE-NUS-04-03-2016-07:19:46:659-9</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>1</READ_INDEX>
+               <READ_LABEL>R2</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Reverse</READ_TYPE>
+               <RELATIVE_ORDER follows_read_index="0"/>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="EGAS00001001653/T_CCA_SG_14_S1_L001_R1_001.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="f4ce0c5d1e3b8e88182d43a1f4a1f6e7" unencrypted_checksum="bf5f0afc828262ed1c66d32c67783464">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="EGAS00001001653/T_CCA_SG_14_S1_L001_R2_001.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="6dc61009d3dd60a2c0188ed327d3407f" unencrypted_checksum="a971fe24c49bca3b9fc31f268850acc9">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>

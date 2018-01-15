@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-NCCS-30-03-2017-03:06:58:430-51" center_name="NCCS" accession="ERR1904802" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR1904802</PRIMARY_ID>
+         <SUBMITTER_ID namespace="NCCS">ena-RUN-NCCS-30-03-2017-03:06:58:430-51</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF accession="ERX1965208">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX1965208</PRIMARY_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>1</READ_INDEX>
+               <READ_LABEL>R2</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Reverse</READ_TYPE>
+               <RELATIVE_ORDER follows_read_index="0"/>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE ascii_offset="!" checksum="ab0cf944504e8f4af1d2f17fded5b99f" checksum_method="MD5" filename="NNKTL23_R1.fastq.gz" filetype="fastq" quality_encoding="ascii" quality_scoring_system="phred" unencrypted_checksum="9abe04f395cf523ecf3549dfa743ef66">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE ascii_offset="!" checksum="98eed3a7ab3e3525d6ff4fec2e521847" checksum_method="MD5" filename="NNKTL23_R2.fastq.gz" filetype="fastq" quality_encoding="ascii" quality_scoring_system="phred" unencrypted_checksum="782e63d6995ca3668502fadda1b17485">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>
