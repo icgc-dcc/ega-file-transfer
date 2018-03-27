@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS alias="1437ND.bam.gpg_analysis" center_name="Hospital Clinic Barcelona" analysis_center="Barcelona Supercomputer Center" accession="ERZ119861" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ119861</PRIMARY_ID>
+         <SUBMITTER_ID namespace="Hospital Clinic Barcelona">1437ND.bam.gpg_analysis</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>Integrated Genomic Analysis of Chronic Lymphocytic Leukaemia</TITLE>
+      <DESCRIPTION>Chronic lymphocytic leukaemia (CLL) is a frequent and heterogeneous disease whose genetic alterations determining the clinicobiological behaviour are not fully understood. Here, we describe a comprehensive evaluation of the genomic landscape of 452 CLLs and 54 monoclonal B-lymphocytosis (MBL), a precursor disorder.  This study provides an integrated portrait of the genomic landscape of CLL, identifies new recurrent mutations acting as drivers of the disease, and suggests clinical interventions which may improve the management of patients with this neoplasia.</DESCRIPTION>
+      <STUDY_REF accession="ERP010921" refcenter="Hospital Clinic Barcelona" refname="ena-STUDY-Hospital Clinic Barcelona-02-07-2015-13:56:39:681-64">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP010921</PRIMARY_ID>
+            <SUBMITTER_ID namespace="Hospital Clinic Barcelona">ena-STUDY-Hospital Clinic Barcelona-02-07-2015-13:56:39:681-64</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF refname="1437-01-01ND" refcenter="Hospital Clinic Barcelona" accession="ERS809204">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS809204</PRIMARY_ID>
+            <SUBMITTER_ID namespace="Hospital Clinic Barcelona">1437-01-01ND</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <EXPERIMENT_REF refname="WXS_CNAG_CLL-C4303ACXX_5_30ssxt2_1437-01-01ND_paired"/>
+      <EXPERIMENT_REF refname="WXS_CNAG_CLL-C43NTACXX_1_30ssxt2_1437-01-01ND_paired"/>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT>
+            <ASSEMBLY>
+               <STANDARD refname="GRCh37" accession="GCA_000001405.1"/>
+            </ASSEMBLY>
+            <SEQUENCE accession="CM000663.1" label="1"/>
+            <SEQUENCE accession="CM000664.1" label="2"/>
+            <SEQUENCE accession="CM000665.1" label="3"/>
+            <SEQUENCE accession="CM000666.1" label="4"/>
+            <SEQUENCE accession="CM000667.1" label="5"/>
+            <SEQUENCE accession="CM000668.1" label="6"/>
+            <SEQUENCE accession="CM000669.1" label="7"/>
+            <SEQUENCE accession="CM000670.1" label="8"/>
+            <SEQUENCE accession="CM000671.1" label="9"/>
+            <SEQUENCE accession="CM000672.1" label="10"/>
+            <SEQUENCE accession="CM000673.1" label="11"/>
+            <SEQUENCE accession="CM000674.1" label="12"/>
+            <SEQUENCE accession="CM000675.1" label="13"/>
+            <SEQUENCE accession="CM000676.1" label="14"/>
+            <SEQUENCE accession="CM000677.1" label="15"/>
+            <SEQUENCE accession="CM000678.1" label="16"/>
+            <SEQUENCE accession="CM000679.1" label="17"/>
+            <SEQUENCE accession="CM000680.1" label="18"/>
+            <SEQUENCE accession="CM000681.1" label="19"/>
+            <SEQUENCE accession="CM000682.1" label="20"/>
+            <SEQUENCE accession="CM000683.1" label="21"/>
+            <SEQUENCE accession="CM000684.1" label="22"/>
+            <SEQUENCE accession="CM000685.1" label="X"/>
+            <SEQUENCE accession="CM000686.1" label="Y"/>
+         </REFERENCE_ALIGNMENT>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE filename="exomes/1437ND.bam.gpg" filetype="bam" checksum_method="MD5" checksum="b31ef80d50a50b32936c5cff8de722a1" unencrypted_checksum="d134dd28aab8be7e2d361511fa2676f7"/>
+      </FILES>
+   </ANALYSIS>
+</ANALYSIS_SET>
