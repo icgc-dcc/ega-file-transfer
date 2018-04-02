@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="ena-EXPERIMENT-SLC-09-01-2018-13:49:34:327-32" center_name="SLC" broker_name="EGA" accession="ERX2290564">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX2290564</PRIMARY_ID>
+         <SUBMITTER_ID namespace="SLC">ena-EXPERIMENT-SLC-09-01-2018-13:49:34:327-32</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP021350">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP021350</PRIMARY_ID>
+            <SECONDARY_ID>EGAS00001002271</SECONDARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>DNA Library</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS2076421">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS2076421</PRIMARY_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>LI1712B</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WGS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>unspecified</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="126"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>Fragmentation of DNA by sonication and agarose gel size selection</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+   </EXPERIMENT>
+</EXPERIMENT_SET>
