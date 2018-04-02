@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-NCPSB-04-05-2017-10:38:26:159-52" center_name="NCPSB" broker_name="EGA" accession="ERR1956289">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR1956289</PRIMARY_ID>
+         <SUBMITTER_ID namespace="NCPSB">ena-RUN-NCPSB-04-05-2017-10:38:26:159-52</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF accession="ERX2021797">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX2021797</PRIMARY_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>1</READ_INDEX>
+               <READ_LABEL>R2</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Reverse</READ_TYPE>
+               <RELATIVE_ORDER follows_read_index="0"/>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE ascii_offset="!" checksum="d5b293e63ea13e07e31c53a03bda76c2" checksum_method="MD5" filename="EGAS00001001742/CML089T/160111_I211_FCH52MCBBXX_L6_HUMcbaEAAAQAAA-93_1.clean.fq.gz.gpg" filetype="fastq" quality_encoding="ascii" quality_scoring_system="phred" unencrypted_checksum="191fbbcfbfb6f9e4c226364a3269f190">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE ascii_offset="!" checksum="d4cb3e31f9636a6b99dc7d42c8089a6b" checksum_method="MD5" filename="EGAS00001001742/CML089T/160111_I211_FCH52MCBBXX_L6_HUMcbaEAAAQAAA-93_2.clean.fq.gz.gpg" filetype="fastq" quality_encoding="ascii" quality_scoring_system="phred" unencrypted_checksum="0cda6b880085f652e6b2cf2d53e4b9d2">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>
