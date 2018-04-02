@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="SC_EXP_7567_1#80" center_name="SC" accession="ERX176377" broker_name="EGA" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX176377</PRIMARY_ID>
+         <SUBMITTER_ID namespace="SC">SC_EXP_7567_1#80</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP001197" refname="Myelodysplastic_Syndrome_Follow_Up_Series-sc-2012-02-06T10:48:38Z-2105" refcenter="SC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001197</PRIMARY_ID>
+            <SUBMITTER_ID namespace="SC">Myelodysplastic_Syndrome_Follow_Up_Series-sc-2012-02-06T10:48:38Z-2105</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>Illumina sequencing of library 4402917, constructed from sample accession EGAN00001039829 for study accession EGAS00001000224.  This is part of an Illumina multiplexed sequencing run (7567_1).  This submission includes reads tagged with the sequence GTCGCTAT.</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS091251" refname="PD5758a-sc-2012-02-06T11:36:41Z-1350390" refcenter="SC">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS091251</PRIMARY_ID>
+               <SUBMITTER_ID namespace="SC">PD5758a-sc-2012-02-06T11:36:41Z-1350390</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>4402917</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WXS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>Hybrid Selection</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="160" NOMINAL_SDEV="40"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>Custom</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

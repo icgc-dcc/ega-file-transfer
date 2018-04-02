@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="SC_EXP_8045_1#70" center_name="SC" accession="ERX151349" broker_name="EGA" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX151349</PRIMARY_ID>
+         <SUBMITTER_ID namespace="SC">SC_EXP_8045_1#70</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP001379" refname="AML_targeted_resequencing_study-sc-2012-04-25T14:24:49Z-2188" refcenter="SC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001379</PRIMARY_ID>
+            <SUBMITTER_ID namespace="SC">AML_targeted_resequencing_study-sc-2012-04-25T14:24:49Z-2188</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>Illumina sequencing of library 5398975, constructed from sample accession EGAN00001062107 for study accession EGAS00001000275.  This is part of an Illumina multiplexed sequencing run (8045_1).  This submission includes reads tagged with the sequence GATCTCTT.</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS125005" refname="2188STDY5325847-sc-2012-04-10T10:03:13Z-1394332" refcenter="SC">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS125005</PRIMARY_ID>
+               <SUBMITTER_ID namespace="SC">2188STDY5325847-sc-2012-04-10T10:03:13Z-1394332</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>5398975</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WXS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>Hybrid Selection</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="164" NOMINAL_SDEV="42"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>Agilent Pulldown</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

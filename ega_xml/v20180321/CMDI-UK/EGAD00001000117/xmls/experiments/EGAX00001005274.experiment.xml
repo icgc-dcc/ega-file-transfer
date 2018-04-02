@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="SC_EXP_6555_7#4" center_name="SC" accession="ERX027933" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX027933</PRIMARY_ID>
+         <SUBMITTER_ID namespace="SC">SC_EXP_6555_7#4</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP000769" refname="Myelodysplastic_Syndrome_Exome_Sequnecing-sc-2011-07-05T12:34:43Z-560" refcenter="SC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP000769</PRIMARY_ID>
+            <SUBMITTER_ID namespace="SC">Myelodysplastic_Syndrome_Exome_Sequnecing-sc-2011-07-05T12:34:43Z-560</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>Illumina sequencing of library 2983331, constructed from sample accession EGAN00001010172 for study accession EGAS00001000089.  This is part of an Illumina multiplexed sequencing run (6555_7).  This submission includes reads tagged with the sequence TGACCAC.</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS040024" refname="PD6110a-sc-2011-06-27T16:27:59Z-1179014" refcenter="SC">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS040024</PRIMARY_ID>
+               <SUBMITTER_ID namespace="SC">PD6110a-sc-2011-06-27T16:27:59Z-1179014</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>2983331</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WXS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>Hybrid Selection</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="163" NOMINAL_SDEV="43"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>Agilent Pulldown</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

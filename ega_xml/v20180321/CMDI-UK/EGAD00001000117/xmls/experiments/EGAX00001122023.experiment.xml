@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT center_name="SC" accession="ERX276924" broker_name="EGA" alias="SC_EXP_7907_1#5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX276924</PRIMARY_ID>
+         <SUBMITTER_ID namespace="SC">SC_EXP_7907_1#5</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP000693" refname="Whole_genome_sequencing_of_Crohn_s_disease_patients-sc-2011-05-17T16:04:35Z-1833" refcenter="SC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP000693</PRIMARY_ID>
+            <SUBMITTER_ID namespace="SC">Whole_genome_sequencing_of_Crohn_s_disease_patients-sc-2011-05-17T16:04:35Z-1833</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>Illumina sequencing of library 4524202, constructed from sample
+            accession EGAN00001041678 for study accession EGAS00001000065. This is part of an
+            Illumina multiplexed sequencing run (7907_1). This submission includes reads tagged with
+            the sequence ACAGTGGT.</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS097070" refname="CroRep819753-sc-2012-02-23T10:51:29Z-853333" refcenter="SC">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS097070</PRIMARY_ID>
+               <SUBMITTER_ID namespace="SC">CroRep819753-sc-2012-02-23T10:51:29Z-853333</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>4524202</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WGS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="296" NOMINAL_SDEV="66"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>Standard</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>
