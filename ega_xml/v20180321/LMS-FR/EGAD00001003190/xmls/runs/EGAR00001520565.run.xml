@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-SIRIC-ICGC-25-01-2017-09:01:14:153-47" center_name="SIRIC-ICGC" accession="ERR1806659" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR1806659</PRIMARY_ID>
+         <SUBMITTER_ID namespace="SIRIC-ICGC">ena-RUN-SIRIC-ICGC-25-01-2017-09:01:14:153-47</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF accession="ERX1869686">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX1869686</PRIMARY_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>1</READ_INDEX>
+               <READ_LABEL>R2</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Reverse</READ_TYPE>
+               <RELATIVE_ORDER follows_read_index="0"/>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="LMS48C/LMS48C_1.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="d1aa539c91f025b7f3d43681591e0541" unencrypted_checksum="2b9db6746e20ff2dba3370915ddbfa22">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="LMS48C/LMS48C_2.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="fc9d0b17eb251822e5f4deef68395b3d" unencrypted_checksum="f103efe9404289f01749b00b455caee6">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>
