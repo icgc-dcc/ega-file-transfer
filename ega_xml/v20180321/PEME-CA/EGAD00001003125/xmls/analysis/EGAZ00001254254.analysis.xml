@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS alias="control_MDT-AP-0706_merged.mdup.bam.gpg" center_name="DKFZ-IBIOS" broker_name="EGA" accession="ERZ373697">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ373697</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">control_MDT-AP-0706_merged.mdup.bam.gpg</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>alignment of WGS data</TITLE>
+      <DESCRIPTION>FASTQ files aligned with bwa-0.7.8 mem -T 0 and merged and duplicates marked with biobambam-0.0.148</DESCRIPTION>
+      <STUDY_REF accession="ERP017043">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP017043</PRIMARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF accession="ERS1373084">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS1373084</PRIMARY_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT>
+            <ASSEMBLY>
+               <STANDARD accession="GCA_000001405.1"/>
+            </ASSEMBLY>
+         </REFERENCE_ALIGNMENT>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE filename="control_MDT-AP-0706_merged.mdup.bam.gpg" filetype="bam" checksum_method="MD5" checksum="1081bf8fca6bc69ce84ce18bcc52fc03" unencrypted_checksum="4d3c36ea665fd4d2fb6fa8ea7d41d266"/>
+      </FILES>
+      <ANALYSIS_ATTRIBUTES>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>library_strategy</TAG>
+            <VALUE>WGS</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>library_layout</TAG>
+            <VALUE>PAIRED</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+      </ANALYSIS_ATTRIBUTES>
+   </ANALYSIS>
+</ANALYSIS_SET>
