@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT center_name="QCMG" alias="S0413_20120416_1_LMP.nopd.nobc" accession="ERX185596" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX185596</PRIMARY_ID>
+         <SUBMITTER_ID namespace="QCMG">S0413_20120416_1_LMP.nopd.nobc</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>S0413_20120416_1_LMP.nopd.nobc</TITLE>
+      <STUDY_REF refname="Genome Landscape of Ovarian Cancer" accession="ERP001990" refcenter="QCMG">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001990</PRIMARY_ID>
+            <SUBMITTER_ID namespace="QCMG">Genome Landscape of Ovarian Cancer</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>AB SOLiD 4 System LMP Mate Pair Sequencing</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR refname="ICGC-DBLG-20110807-02-TD" accession="ERS199456" refcenter="QCMG">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS199456</PRIMARY_ID>
+               <SUBMITTER_ID namespace="QCMG">ICGC-DBLG-20110807-02-TD</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>Library_20110801_A</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WGS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_SDEV="540" NOMINAL_LENGTH="1770"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>LMP</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ABI_SOLID>
+            <INSTRUMENT_MODEL>AB SOLiD 4 System</INSTRUMENT_MODEL>
+         </ABI_SOLID>
+      </PLATFORM>
+   </EXPERIMENT>
+</EXPERIMENT_SET>
