@@ -1,0 +1,51 @@
+<ANALYSIS_SET>
+   <ANALYSIS center_name="BCGSC-ICGC" analysis_date="2012-02-25T05:03:28Z" analysis_center="BCGSC-ICGC" alias="A06697" accession="ERZ000271" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ000271</PRIMARY_ID>
+         <SUBMITTER_ID namespace="BCGSC-ICGC">A06697</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>Reference alignment of WGSS A06697</TITLE>
+      <DESCRIPTION>Illumina paired-end whole genome sequencing reads were aligned to hg18 reference using BWA version 0.5.7. This reference contains chromosomes in the NCBI36.1 assembly (chromosomes 1-22, MT, X and Y). Ten lanes of sequences were merged with SAMTOOLS version 0.1.8, and duplicated reads were marked with Picard’s MarkDuplicates version 1.31.</DESCRIPTION>
+      <STUDY_REF refname="MAGIC" refcenter="BCGSC-ICGC" accession="ERP001373"/>
+      <SAMPLE_REF refname="ZW-Primary-MB" refcenter="BCGSC-ICGC" accession="ERS130754">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS130754</PRIMARY_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT>
+            <ASSEMBLY>
+               <STANDARD refname="NCBI36_BCCAGSC_variant"/>
+            </ASSEMBLY>
+            <SEQUENCE accession="NC_000001.9" label="1"/>
+            <SEQUENCE accession="NC_000002.10" label="2"/>
+            <SEQUENCE accession="NC_000003.10" label="3"/>
+            <SEQUENCE accession="NC_000004.10" label="4"/>
+            <SEQUENCE accession="NC_000005.8" label="5"/>
+            <SEQUENCE accession="NC_000006.10" label="6"/>
+            <SEQUENCE accession="NC_000007.12" label="7"/>
+            <SEQUENCE accession="NC_000008.9" label="8"/>
+            <SEQUENCE accession="NC_000009.10" label="9"/>
+            <SEQUENCE accession="NC_000010.9" label="10"/>
+            <SEQUENCE accession="NC_000011.8" label="11"/>
+            <SEQUENCE accession="NC_000012.10" label="12"/>
+            <SEQUENCE accession="NC_000013.9" label="13"/>
+            <SEQUENCE accession="NC_000014.7" label="14"/>
+            <SEQUENCE accession="NC_000015.8" label="15"/>
+            <SEQUENCE accession="NC_000016.8" label="16"/>
+            <SEQUENCE accession="NC_000017.9" label="17"/>
+            <SEQUENCE accession="NC_000018.8" label="18"/>
+            <SEQUENCE accession="NC_000019.8" label="19"/>
+            <SEQUENCE accession="NC_000020.9" label="20"/>
+            <SEQUENCE accession="NC_000021.7" label="21"/>
+            <SEQUENCE accession="NC_000022.9" label="22"/>
+            <SEQUENCE accession="NC_000023.9" label="X"/>
+            <SEQUENCE accession="NC_000024.8" label="Y"/>
+            <SEQUENCE accession="NC_001807.4" label="MT"/>
+         </REFERENCE_ALIGNMENT>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE unencrypted_checksum="eb71e48d50f2e5a24c720b1438a845c1" checksum="4a004b86a96bf5587301884d961637b6" filetype="bam" filename="A06697_10_lanes_dupsFlagged.bam.gpg" checksum_method="MD5"/>
+      </FILES>
+   </ANALYSIS>
+</ANALYSIS_SET>

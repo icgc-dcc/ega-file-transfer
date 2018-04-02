@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS alias="ANALYSIS_ICGC_BL67_GRCh37" center_name="DKFZ-IBIOS" broker_name="EGA" accession="ERZ016295">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ016295</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">ANALYSIS_ICGC_BL67_GRCh37</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>Whole Genome DNA Sequencing of matched brain tumor-normal pairs (ICGC)</TITLE>
+      <DESCRIPTION>Illumina HiSeq sequence data (with >30x coverage) were aligned to the hg19 human reference genome assembly using BWA (Li and Durbin, 2009); duplicate reads were removed from the final BAM file. No realignment or recalibration was performed.</DESCRIPTION>
+      <STUDY_REF accession="ERP004148" refcenter="DKFZ-IBIOS" refname="ena-STUDY-DKFZ-IBIOS-21-10-2013-14:21:35:101-46">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP004148</PRIMARY_ID>
+            <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-STUDY-DKFZ-IBIOS-21-10-2013-14:21:35:101-46</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF refname="ICGC_BL67" refcenter="DKFZ-IBIOS" label="" accession="ERS370131">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS370131</PRIMARY_ID>
+            <SUBMITTER_ID namespace="DKFZ-IBIOS">ICGC_BL67</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT>
+            <ASSEMBLY>
+               <STANDARD refname="GRCh37" accession="GCA_000001405.1"/>
+            </ASSEMBLY>
+            <SEQUENCE accession="GCA_000001405.1" label="hg19"/>
+         </REFERENCE_ALIGNMENT>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE filename="WGS-PAIRED-ICGC_BL67-merged.bam.rmdup.bam.gpg" filetype="bam" checksum_method="MD5" checksum="ab1a5750fd7e2625f09afd5ae275d8ee" unencrypted_checksum="31908d36158b8c42ebbac2a78717a399"/>
+      </FILES>
+   </ANALYSIS>
+</ANALYSIS_SET>

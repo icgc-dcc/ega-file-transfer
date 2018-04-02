@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-DKFZ-IBIOS-07-04-2016-08:45:08:970-49" center_name="DKFZ-IBIOS" accession="ERR1352420" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR1352420</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-RUN-DKFZ-IBIOS-07-04-2016-08:45:08:970-49</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF accession="ERX1423941">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX1423941</PRIMARY_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>1</READ_INDEX>
+               <READ_LABEL>R2</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Reverse</READ_TYPE>
+               <RELATIVE_ORDER follows_read_index="0"/>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2500</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="WGS_PAIRED_ICGC_GBM40_cell_line_SN7001149_0150_BC26PLACXXB062_SF188_NoIndex_L002_R1_complete_filtered.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="2a0599179da6a1484d76122fb1f4bb71" unencrypted_checksum="5d9eba680b74b701b45e0124fdeb10b9">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="WGS_PAIRED_ICGC_GBM40_cell_line_SN7001149_0150_BC26PLACXXB062_SF188_NoIndex_L002_R2_complete_filtered.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="715367f910f793fb2364aa66928da84e" unencrypted_checksum="818c43f656f88604821a0d1287a7ba78">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>

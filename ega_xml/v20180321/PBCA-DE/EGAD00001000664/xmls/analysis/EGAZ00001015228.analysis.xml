@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS alias="ANALYSIS_WGS_ICGC_MB59" center_name="DKFZ-IBIOS" broker_name="EGA" accession="ERZ015643">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ015643</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">ANALYSIS_WGS_ICGC_MB59</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>Whole Genome, RNA, and ChIP Sequencing of matched brain tumor-normal pairs (ICGC)</TITLE>
+      <DESCRIPTION>Whole Genome Seq: Illumina HiSeq sequence data (with >30x coverage) were aligned to the hg19 human reference genome assembly using BWA (Li and Durbin, 2009); duplicate reads were removed from the final BAM file. No realignment or recalibration was performed. Paired-end RNA sequencing reads were mapped to the hg19 assembly of the human reference genome using BWA. Each ChIP-seq library was sequenced with two complete lanes on the Illumina HiSeq 2500 in the 101-bases paired-end rapid mode and aligned to hg19 using bwa. This resulted in the following coverage values (genome-wide, after deduplication, including all uniquely mapping reads): GBM103:: macroH2A1: 17x, H3K36me3: 20x; MB59:: macroH2A1: 11x, H3K36me3: 11x</DESCRIPTION>
+      <STUDY_REF refname="ena-STUDY-DKFZ-IBIOS-26-07-2013-16:06:31:361-17" refcenter="DKFZ-IBIOS" accession="ERP003680">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP003680</PRIMARY_ID>
+            <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-STUDY-DKFZ-IBIOS-26-07-2013-16:06:31:361-17</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF refname="ICGC_MB59" refcenter="DKFZ-IBIOS" accession="ERS344296">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS344296</PRIMARY_ID>
+            <SUBMITTER_ID namespace="DKFZ-IBIOS">ICGC_MB59</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT>
+            <ASSEMBLY>
+               <STANDARD refname="GRCh37" accession="GCA_000001405.1"/>
+            </ASSEMBLY>
+            <SEQUENCE accession="GCA_000001405.1" label="hg19"/>
+         </REFERENCE_ALIGNMENT>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE filename="MB59_tumor_medulloblastoma.bam.gpg" filetype="bam" checksum_method="MD5" checksum="6f8e3ab0872b92ce1c51adc693cdf6cc" unencrypted_checksum="24ae5e5359d006b3a6cc167a53204af4"/>
+      </FILES>
+   </ANALYSIS>
+</ANALYSIS_SET>

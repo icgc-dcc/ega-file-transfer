@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS alias="tumor_ICGC_MB288_merged.mdup.bam.gpg" center_name="DKFZ-IBIOS" broker_name="EGA" accession="ERZ375090">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ375090</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">tumor_ICGC_MB288_merged.mdup.bam.gpg</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>alignment of WGS data</TITLE>
+      <DESCRIPTION>FASTQ files aligned with bwa-0.7.8 mem -T 0 and merged and duplicates marked with biobambam-0.0.148</DESCRIPTION>
+      <STUDY_REF accession="ERP001172">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001172</PRIMARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF accession="ERS1301852">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS1301852</PRIMARY_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT>
+            <ASSEMBLY>
+               <STANDARD accession="GCA_000001405.1"/>
+            </ASSEMBLY>
+         </REFERENCE_ALIGNMENT>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE filename="tumor_ICGC_MB288_merged.mdup.bam.gpg" filetype="bam" checksum_method="MD5" checksum="1bfa58d982da4508b11ab1e4301619c5" unencrypted_checksum="1ce9fc20e1fa0a44a1d4791900a175da"/>
+      </FILES>
+      <ANALYSIS_ATTRIBUTES>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>library_strategy</TAG>
+            <VALUE>WGS</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>library_layout</TAG>
+            <VALUE>PAIRED</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+      </ANALYSIS_ATTRIBUTES>
+   </ANALYSIS>
+</ANALYSIS_SET>

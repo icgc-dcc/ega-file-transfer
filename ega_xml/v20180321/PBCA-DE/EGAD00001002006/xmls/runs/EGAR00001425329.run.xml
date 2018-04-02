@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-DKFZ-IBIOS-11-04-2016-08:49:29:313-2" center_name="DKFZ-IBIOS" accession="ERR1353874" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR1353874</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-RUN-DKFZ-IBIOS-11-04-2016-08:49:29:313-2</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF accession="ERX1425349">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX1425349</PRIMARY_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>1</READ_INDEX>
+               <READ_LABEL>R2</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Reverse</READ_TYPE>
+               <RELATIVE_ORDER follows_read_index="0"/>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2500</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="WXS_PAIRED_INF_51_XT1_blood_SN7001103R_0238_BHA4YKADXXHD_00M_BD_ATCACG_L002_R1_complete_filtered.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="b7e351562beb232890646ae77f183e62" unencrypted_checksum="91360d76e7793d43d1fc420649f87b80">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="WXS_PAIRED_INF_51_XT1_blood_SN7001103R_0238_BHA4YKADXXHD_00M_BD_ATCACG_L002_R2_complete_filtered.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="6a52dbc3aaef09740cc461f5eda8e08c" unencrypted_checksum="26f6571ba7accc63869a0e6414db63f5">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>
