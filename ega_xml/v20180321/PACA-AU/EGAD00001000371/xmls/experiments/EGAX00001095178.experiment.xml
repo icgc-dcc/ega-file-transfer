@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT center_name="QCMG" alias="121120_SN7001243_0130_BC15E8ACXX.lane_3.nobc" accession="ERX238106" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX238106</PRIMARY_ID>
+         <SUBMITTER_ID namespace="QCMG">121120_SN7001243_0130_BC15E8ACXX.lane_3.nobc</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>121120_SN7001243_0130_BC15E8ACXX.lane_3.nobc</TITLE>
+      <STUDY_REF refname="Genome Landscape of Primary Pancreatic Ductal Adenocarcinoma" accession="ERP000940" refcenter="ICGC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP000940</PRIMARY_ID>
+            <SUBMITTER_ID namespace="ICGC">Genome Landscape of Primary Pancreatic Ductal Adenocarcinoma</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>Illumina HiSeq 2000 Illumina TruSEQ Multiplexed Manual</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR refname="ICGC-ABMB-20121025-003" accession="ERS239110" refcenter="QCMG">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS239110</PRIMARY_ID>
+               <SUBMITTER_ID namespace="QCMG">ICGC-ABMB-20121025-003</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>Library_20121106_E</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WGS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_SDEV="90" NOMINAL_LENGTH="360"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>Illumina TruSEQ Multiplexed Manual</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+   </EXPERIMENT>
+</EXPERIMENT_SET>
