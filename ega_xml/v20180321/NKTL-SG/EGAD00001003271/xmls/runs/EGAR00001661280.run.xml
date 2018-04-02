@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-NCCS-02-03-2018-07:21:40:009-7" center_name="NCCS" broker_name="EGA" accession="ERR2359779">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR2359779</PRIMARY_ID>
+         <SUBMITTER_ID namespace="NCCS">ena-RUN-NCCS-02-03-2018-07:21:40:009-7</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF accession="ERX2408345">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX2408345</PRIMARY_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>1</READ_INDEX>
+               <READ_LABEL>R2</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Reverse</READ_TYPE>
+               <RELATIVE_ORDER follows_read_index="0"/>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE checksum="e18cc803fe8d81f04951588f6f16114c" checksum_method="MD5" filename="icgc_batch2/NAITL37_R1.fastq.gz" filetype="fastq" unencrypted_checksum="013fe87afb1d2ff5ecea0a8571fdb7c1" quality_scoring_system="phred">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE checksum="f1bbaced009107b40e89e2cf158bf6bc" checksum_method="MD5" filename="icgc_batch2/NAITL37_R2.fastq.gz" filetype="fastq" unencrypted_checksum="8834810bd1bc16cccdcd65fa93e3d040" quality_scoring_system="phred">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>
