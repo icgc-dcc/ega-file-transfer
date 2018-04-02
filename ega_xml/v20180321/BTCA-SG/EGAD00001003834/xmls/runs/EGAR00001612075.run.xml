@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN accession="ERR2185537" alias="ena-RUN-DUKE-NUS-31-10-2017-06:57:26:941-5" broker_name="EGA" center_name="DUKE-NUS">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR2185537</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DUKE-NUS">ena-RUN-DUKE-NUS-31-10-2017-06:57:26:941-5</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF accession="ERX2241656">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX2241656</PRIMARY_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>1</READ_INDEX>
+               <READ_LABEL>R2</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Reverse</READ_TYPE>
+               <RELATIVE_ORDER follows_read_index="0"/>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>HiSeq X Ten</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE ascii_offset="!" checksum="25c876b28f5b2c8aff3af0215af6a231" checksum_method="MD5" filename="EGAS00001001653/fastq/CCA_TH_16/T_CCA_TH_16/T_CCA_TH_16_PCR_Free_T_NoIndex_L001_R1_001.fastq.gz" filetype="fastq" quality_encoding="ascii" quality_scoring_system="phred" unencrypted_checksum="42704deb0a5d65df5aa19db1b3e4d8ed">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE ascii_offset="!" checksum="83b91e74dec28911fac899a8618d6e71" checksum_method="MD5" filename="EGAS00001001653/fastq/CCA_TH_16/T_CCA_TH_16/T_CCA_TH_16_PCR_Free_T_NoIndex_L001_R2_001.fastq.gz" filetype="fastq" quality_encoding="ascii" quality_scoring_system="phred" unencrypted_checksum="f48d7adb232c238a07d0e2cc7d2fd896">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>
