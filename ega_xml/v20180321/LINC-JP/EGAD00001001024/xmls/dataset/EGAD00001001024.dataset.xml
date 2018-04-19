@@ -1,0 +1,656 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><DATASETS>
+   <DATASET alias="DATASET_HCC_exome_THCC" center_name="RCAST" broker_name="EGA" accession="EGAD00001001024">
+      <IDENTIFIERS>
+         <PRIMARY_ID>EGAD00001001024</PRIMARY_ID>
+         <SUBMITTER_ID namespace="RCAST">DATASET_HCC_exome_THCC</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>Whole genome sequence of hepatocellular carcinoma (RCAST)</TITLE>
+      <DESCRIPTION>Fastq files of 52 samples of hepatocellular carcinoma
+(RCAST, THCC)</DESCRIPTION>
+      <DATASET_TYPE>Exome sequencing</DATASET_TYPE>
+      <RUN_REF accession="EGAR00001246143" refname="RUN_THCC_100T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246143</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_100T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246144" refname="RUN_THCC_105T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246144</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_105T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246145" refname="RUN_THCC_106T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246145</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_106T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246146" refname="RUN_THCC_107T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246146</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_107T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246147" refname="RUN_THCC_108T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246147</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_108T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246148" refname="RUN_THCC_109T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246148</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_109T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246149" refname="RUN_THCC_118T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246149</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_118T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246150" refname="RUN_THCC_119T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246150</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_119T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246151" refname="RUN_THCC_12-11T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246151</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-11T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246152" refname="RUN_THCC_12-12T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246152</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-12T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246153" refname="RUN_THCC_12-13T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246153</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-13T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246154" refname="RUN_THCC_12-14T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246154</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-14T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246155" refname="RUN_THCC_12-15T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246155</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-15T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246156" refname="RUN_THCC_12-1T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246156</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-1T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246157" refname="RUN_THCC_12-4T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246157</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-4T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246158" refname="RUN_THCC_12-6T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246158</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-6T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246159" refname="RUN_THCC_12-7T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246159</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-7T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246160" refname="RUN_THCC_12-9T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246160</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-9T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246161" refname="RUN_THCC_124T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246161</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_124T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246162" refname="RUN_THCC_125T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246162</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_125T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246163" refname="RUN_THCC_126T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246163</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_126T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246164" refname="RUN_THCC_127T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246164</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_127T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246165" refname="RUN_THCC_130T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246165</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_130T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246166" refname="RUN_THCC_132T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246166</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_132T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246167" refname="RUN_THCC_134T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246167</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_134T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246168" refname="RUN_THCC_135T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246168</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_135T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246169" refname="RUN_THCC_150T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246169</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_150T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246170" refname="RUN_THCC_151T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246170</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_151T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246171" refname="RUN_THCC_155T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246171</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_155T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246172" refname="RUN_THCC_156T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246172</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_156T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246173" refname="RUN_THCC_159T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246173</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_159T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246174" refname="RUN_THCC_161T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246174</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_161T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246175" refname="RUN_THCC_167T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246175</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_167T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246176" refname="RUN_THCC_28T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246176</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_28T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246177" refname="RUN_THCC_31T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246177</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_31T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246178" refname="RUN_THCC_34T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246178</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_34T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246179" refname="RUN_THCC_36T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246179</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_36T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246180" refname="RUN_THCC_50T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246180</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_50T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246181" refname="RUN_THCC_52T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246181</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_52T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246182" refname="RUN_THCC_53T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246182</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_53T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246183" refname="RUN_THCC_61T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246183</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_61T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246184" refname="RUN_THCC_65T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246184</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_65T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246185" refname="RUN_THCC_76T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246185</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_76T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246186" refname="RUN_THCC_82T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246186</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_82T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246187" refname="RUN_THCC_83T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246187</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_83T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246188" refname="RUN_THCC_85T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246188</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_85T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246189" refname="RUN_THCC_86T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246189</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_86T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246190" refname="RUN_THCC_91T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246190</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_91T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246191" refname="RUN_THCC_98T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246191</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_98T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246192" refname="RUN_THCC_99T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246192</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_99T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246193" refname="RUN_THCC_12-2T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246193</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-2T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246194" refname="RUN_THCC_12-5T" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246194</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-5T</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246195" refname="RUN_THCC_100N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246195</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_100N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246196" refname="RUN_THCC_105N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246196</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_105N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246197" refname="RUN_THCC_106N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246197</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_106N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246198" refname="RUN_THCC_107N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246198</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_107N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246199" refname="RUN_THCC_108N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246199</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_108N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246200" refname="RUN_THCC_109N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246200</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_109N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246201" refname="RUN_THCC_118N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246201</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_118N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246202" refname="RUN_THCC_119N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246202</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_119N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246203" refname="RUN_THCC_12-11N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246203</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-11N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246204" refname="RUN_THCC_12-12N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246204</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-12N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246205" refname="RUN_THCC_12-13N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246205</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-13N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246206" refname="RUN_THCC_12-14N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246206</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-14N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246207" refname="RUN_THCC_12-15N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246207</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-15N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246208" refname="RUN_THCC_12-1N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246208</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-1N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246209" refname="RUN_THCC_12-4N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246209</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-4N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246210" refname="RUN_THCC_12-6N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246210</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-6N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246211" refname="RUN_THCC_12-7N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246211</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-7N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246212" refname="RUN_THCC_12-9N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246212</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-9N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246213" refname="RUN_THCC_124N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246213</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_124N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246214" refname="RUN_THCC_125N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246214</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_125N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246215" refname="RUN_THCC_126N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246215</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_126N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246216" refname="RUN_THCC_127N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246216</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_127N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246217" refname="RUN_THCC_130N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246217</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_130N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246218" refname="RUN_THCC_132N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246218</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_132N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246219" refname="RUN_THCC_134N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246219</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_134N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246220" refname="RUN_THCC_135N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246220</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_135N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246221" refname="RUN_THCC_150N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246221</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_150N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246222" refname="RUN_THCC_151N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246222</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_151N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246223" refname="RUN_THCC_155N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246223</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_155N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246224" refname="RUN_THCC_156N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246224</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_156N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246225" refname="RUN_THCC_159N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246225</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_159N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246226" refname="RUN_THCC_161N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246226</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_161N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246227" refname="RUN_THCC_167N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246227</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_167N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246228" refname="RUN_THCC_28N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246228</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_28N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246229" refname="RUN_THCC_31N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246229</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_31N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246230" refname="RUN_THCC_34N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246230</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_34N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246231" refname="RUN_THCC_36N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246231</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_36N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246232" refname="RUN_THCC_50N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246232</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_50N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246233" refname="RUN_THCC_52N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246233</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_52N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246234" refname="RUN_THCC_53N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246234</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_53N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246235" refname="RUN_THCC_61N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246235</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_61N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246236" refname="RUN_THCC_65N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246236</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_65N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246237" refname="RUN_THCC_76N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246237</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_76N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246238" refname="RUN_THCC_82N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246238</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_82N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246239" refname="RUN_THCC_83N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246239</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_83N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246240" refname="RUN_THCC_85N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246240</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_85N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246241" refname="RUN_THCC_86N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246241</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_86N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246242" refname="RUN_THCC_91N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246242</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_91N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246243" refname="RUN_THCC_98N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246243</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_98N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246244" refname="RUN_THCC_99N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246244</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_99N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246245" refname="RUN_THCC_12-2N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246245</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-2N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <RUN_REF accession="EGAR00001246246" refname="RUN_THCC_12-5N" refcenter="RCAST">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAR00001246246</PRIMARY_ID>
+            <SUBMITTER_ID namespace="RCAST">RUN_THCC_12-5N</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </RUN_REF>
+      <!--EGAR/EGAZ accession numbers are provided upon the receipt of the submission of an Run/analysis XML.-->
+      <POLICY_REF accession="EGAP00001000011" refname="ICGC Data Access Agreements" refcenter="ICGC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>EGAP00001000011</PRIMARY_ID>
+            <SUBMITTER_ID namespace="ICGC">ICGC Data Access Agreements</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </POLICY_REF>
+      <!--EGAP accession numbers are provided upon the receipt of the submission of a Policy XML.-->
+      <DATASET_ATTRIBUTES>
+         <DATASET_ATTRIBUTE>
+            <TAG>Experiment number</TAG>
+            <VALUE>104</VALUE>
+            <UNITS>WXS</UNITS>
+         </DATASET_ATTRIBUTE>
+         <DATASET_ATTRIBUTE>
+            <TAG>Institute</TAG>
+            <VALUE>RCAST</VALUE>
+            <UNITS>Institute</UNITS>
+         </DATASET_ATTRIBUTE>
+      </DATASET_ATTRIBUTES>
+   </DATASET>
+</DATASETS>
