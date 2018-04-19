@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-DKFZ-IBIOS-09-01-2018-11:36:45:390-57" center_name="DKFZ-IBIOS" broker_name="EGA" accession="ERR2238268">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR2238268</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-RUN-DKFZ-IBIOS-09-01-2018-11:36:45:390-57</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF accession="ERX2290435">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX2290435</PRIMARY_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>1</READ_INDEX>
+               <READ_LABEL>R2</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Reverse</READ_TYPE>
+               <RELATIVE_ORDER follows_read_index="0"/>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE checksum="f9563ea7e8253b0e67f5a16cda12faa9" checksum_method="MD5" filename="kortine/RNA_tumor_4144366_SN751_0214_BC5JK4ACXX_R1.fastq.gz" filetype="fastq" unencrypted_checksum="f4483ac13179bd427c48c231deca41db" quality_scoring_system="phred">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE checksum="21641c9221f5cc9372bc6450c3f057fe" checksum_method="MD5" filename="kortine/RNA_tumor_4144366_SN751_0214_BC5JK4ACXX_R2.fastq.gz" filetype="fastq" unencrypted_checksum="5295b2c4f98c51ccbbbbd7df5805340f" quality_scoring_system="phred">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>

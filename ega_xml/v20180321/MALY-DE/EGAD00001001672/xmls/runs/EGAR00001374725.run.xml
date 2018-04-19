@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-DKFZ-IBIOS-12-11-2015-07:58:47:032-16" center_name="DKFZ-IBIOS" accession="ERR1125138" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR1125138</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-RUN-DKFZ-IBIOS-12-11-2015-07:58:47:032-16</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF refname="ena-EXPERIMENT-DKFZ-IBIOS-12-11-2015-07:58:47:032-16" refcenter="DKFZ-IBIOS" accession="ERX1204337">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX1204337</PRIMARY_ID>
+            <SUBMITTER_ID namespace="DKFZ-IBIOS">ena-EXPERIMENT-DKFZ-IBIOS-12-11-2015-07:58:47:032-16</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>1</READ_INDEX>
+               <READ_LABEL>R2</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Reverse</READ_TYPE>
+               <RELATIVE_ORDER follows_read_index="0"/>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="RNA-PAIRED-tumor_4177987_RNA-D00133_0018_ADTWTJACXX_8_ATTCCT-R1.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="8eea587814c258a54933fa6b7c185f09" unencrypted_checksum="a7a898f567f522b9cecf83f9e973f477">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE quality_scoring_system="phred" quality_encoding="ascii" ascii_offset="!" filename="RNA-PAIRED-tumor_4177987_RNA-D00133_0018_ADTWTJACXX_8_ATTCCT-R2.fastq.gz" filetype="fastq" checksum_method="MD5" checksum="4ae15b65907c4a1bf1ff864b4b804559" unencrypted_checksum="2e960913afb033efe96cf5365f8d2c08">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>
