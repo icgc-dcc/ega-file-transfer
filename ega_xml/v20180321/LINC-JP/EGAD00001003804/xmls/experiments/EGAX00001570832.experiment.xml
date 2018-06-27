@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT accession="ERX2248548" alias="ena-EXPERIMENT-RCAST-08-11-2017-04:13:08:470-145" broker_name="EGA" center_name="RCAST" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX2248548</PRIMARY_ID>
+         <SUBMITTER_ID namespace="RCAST">ena-EXPERIMENT-RCAST-08-11-2017-04:13:08:470-145</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP001925">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001925</PRIMARY_ID>
+            <SECONDARY_ID>EGAS00001000389</SECONDARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>HGSC VCRome 2.1 design1 (42Mb, NimbleGen)</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS559586">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS559586</PRIMARY_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>HCC-JP-438-N</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WXS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="300"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>NimbleGen SeqCap EZ Exome Library SR User's Guide (Version 2.2) with minor revisions.</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

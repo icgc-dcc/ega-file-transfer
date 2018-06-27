@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="EXPERIMENT_THCC_12-7N" center_name="RCAST" accession="ERX606951" broker_name="EGA" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX606951</PRIMARY_ID>
+         <SUBMITTER_ID namespace="RCAST">EXPERIMENT_THCC_12-7N</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>Whole exome sequences of hepatocellular carcinoma</TITLE>
+      <STUDY_REF accession="ERP001925" refname="Whole exome analysis of HCC in ICGC project" refcenter="NCCRI">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001925</PRIMARY_ID>
+            <SUBMITTER_ID namespace="NCCRI">Whole exome analysis of HCC in ICGC project</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>Whole exome sequences of hepatocellular carcinoma</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR refname="THCC_12-7N" refcenter="RCAST" accession="ERS563335">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS563335</PRIMARY_ID>
+               <SUBMITTER_ID namespace="RCAST">THCC_12-7N</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>THCC_12-7N</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WXS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="300"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>Agilent SureSelect</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

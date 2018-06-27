@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-BGI-21-09-2017-06:20:11:684-1039" center_name="BGI" broker_name="EGA" accession="ERR2132533">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR2132533</PRIMARY_ID>
+         <SUBMITTER_ID namespace="BGI">ena-RUN-BGI-21-09-2017-06:20:11:684-1039</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF accession="ERX2189385">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX2189385</PRIMARY_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>1</READ_INDEX>
+               <READ_LABEL>R2</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Reverse</READ_TYPE>
+               <RELATIVE_ORDER follows_read_index="0"/>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE ascii_offset="!" checksum="112408a5e5854ffb82c30e5f56d0a11d" checksum_method="MD5" filename="LICA-BGI/64T/110108_I205_FC819AUABXX_L3_HUMohgRBJDMAAPEI-11_1.fq.gz" filetype="fastq" quality_encoding="ascii" quality_scoring_system="phred" unencrypted_checksum="65b3fd23d8f36cd2283197bd1aaa643e">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE ascii_offset="!" checksum="212a0eaf861971266071492a958fdb15" checksum_method="MD5" filename="LICA-BGI/64T/110108_I205_FC819AUABXX_L3_HUMohgRBJDMAAPEI-11_2.fq.gz" filetype="fastq" quality_encoding="ascii" quality_scoring_system="phred" unencrypted_checksum="053abbb2a77a71c1d2f7775eae365f73">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>

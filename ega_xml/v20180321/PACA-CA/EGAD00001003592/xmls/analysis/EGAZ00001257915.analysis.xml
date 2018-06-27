@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS alias="08ab510d-cd22-4ed4-835c-897b9bdccbfc" analysis_center="OICR" analysis_date="2015-11-12T12:00:00.000Z" broker_name="EGA" center_name="OICR_ICGC" accession="ERZ405074">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ405074</PRIMARY_ID>
+         <SUBMITTER_ID namespace="OICR_ICGC">08ab510d-cd22-4ed4-835c-897b9bdccbfc</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>WGS Sequencing of PACA-CA samples</TITLE>
+      <DESCRIPTION>Aligned WGS sequenced data.</DESCRIPTION>
+      <STUDY_REF accession="ERP001969">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001969</PRIMARY_ID>
+            <SECONDARY_ID>EGAS00001000395</SECONDARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF accession="ERS532058" label="PCSI_0090_Ly_R">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS532058</PRIMARY_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT>
+            <ASSEMBLY>
+               <STANDARD accession="GCA_000001405.1" refname="GRCh37"/>
+            </ASSEMBLY>
+         </REFERENCE_ALIGNMENT>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE checksum="9b79a07db5cc4fb5c912226d7b388c6a" checksum_method="MD5" filename="alignment.exome/PCSI_0090_Ly_R/PCSI_0090_Ly_R.bam.gpg" filetype="bam" unencrypted_checksum="5f699162d07de46d1c20126aa2a97452"/>
+      </FILES>
+      <ANALYSIS_ATTRIBUTES>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>_submitted_using</TAG>
+            <VALUE>egasub 0.1.0rc12</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+      </ANALYSIS_ATTRIBUTES>
+   </ANALYSIS>
+</ANALYSIS_SET>

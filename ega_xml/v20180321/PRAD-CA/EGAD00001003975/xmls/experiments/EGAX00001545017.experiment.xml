@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT accession="ERX2154949" alias="CPCG_0576_B.libA.1" broker_name="EGA" center_name="OICR_ICGC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX2154949</PRIMARY_ID>
+         <SUBMITTER_ID namespace="OICR_ICGC">CPCG_0576_B.libA.1</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP006417">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP006417</PRIMARY_ID>
+            <SECONDARY_ID>EGAS00001000900</SECONDARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>generation of CPCG libraries from whole genome</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS1875459">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS1875459</PRIMARY_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>CPCG_0576_B.libA</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WGS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>size fractionation</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="000"/>
+            </LIBRARY_LAYOUT>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>HiSeq X Ten</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

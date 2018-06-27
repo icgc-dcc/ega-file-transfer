@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS alias="RAMP_0007_Mu_R" analysis_center="OICR" broker_name="EGA" center_name="OICR_ICGC" accession="ERZ481253" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ481253</PRIMARY_ID>
+         <SUBMITTER_ID namespace="OICR_ICGC">RAMP_0007_Mu_R</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>WGS Sequencing of PACA-CA samples</TITLE>
+      <DESCRIPTION>Aligned WGS sequenced data</DESCRIPTION>
+      <STUDY_REF accession="ERP001969">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001969</PRIMARY_ID>
+            <SECONDARY_ID>EGAS00001000395</SECONDARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF accession="ERS1599312">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS1599312</PRIMARY_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT>
+            <ASSEMBLY>
+               <STANDARD accession="GCA_000001405.1" refname="GRCh37"/>
+            </ASSEMBLY>
+         </REFERENCE_ALIGNMENT>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE checksum="b4e237efd53b5293c983578ba2336176" checksum_method="MD5" filename="alignment.wgs/RAMP_0007_Mu_R.bam" filetype="bam" unencrypted_checksum="00f8d45c806a2c48088a3d8dc3f5b9a9"/>
+      </FILES>
+   </ANALYSIS>
+</ANALYSIS_SET>

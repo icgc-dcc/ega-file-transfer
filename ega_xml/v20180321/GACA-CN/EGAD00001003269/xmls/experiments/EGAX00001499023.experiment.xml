@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="BGI-YYY-438T-FCN53GKGUXX-WES-I162-FCN53GKGUXX-7-S44" broker_name="EGA" center_name="BGI" accession="ERX1962840" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX1962840</PRIMARY_ID>
+         <SUBMITTER_ID namespace="BGI">BGI-YYY-438T-FCN53GKGUXX-WES-I162-FCN53GKGUXX-7-S44</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>There are 90 GACA cases in this study and belong to GACA-CN project.</TITLE>
+      <STUDY_REF accession="ERP022291">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP022291</PRIMARY_ID>
+            <SECONDARY_ID>EGAS00001002404</SECONDARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>There are 116 liver cancer cases in this study and belong to LICA-CN project.</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS1634732">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS1634732</PRIMARY_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>S44</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WXS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>Hybrid Selection</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="300" NOMINAL_SDEV="0"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>Standard Solexa protocol</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+         <SPOT_DESCRIPTOR>
+            <SPOT_DECODE_SPEC>
+               <SPOT_LENGTH>300</SPOT_LENGTH>
+               <READ_SPEC>
+                  <READ_INDEX>0</READ_INDEX>
+                  <READ_LABEL>F</READ_LABEL>
+                  <READ_CLASS>Application Read</READ_CLASS>
+                  <READ_TYPE>Forward</READ_TYPE>
+                  <BASE_COORD>1</BASE_COORD>
+               </READ_SPEC>
+               <READ_SPEC>
+                  <READ_INDEX>1</READ_INDEX>
+                  <READ_LABEL>R</READ_LABEL>
+                  <READ_CLASS>Application Read</READ_CLASS>
+                  <READ_TYPE>Reverse</READ_TYPE>
+                  <BASE_COORD>151</BASE_COORD>
+               </READ_SPEC>
+            </SPOT_DECODE_SPEC>
+         </SPOT_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

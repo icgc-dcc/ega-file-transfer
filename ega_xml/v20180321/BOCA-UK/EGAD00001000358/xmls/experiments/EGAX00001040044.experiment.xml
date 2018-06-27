@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="SC_EXP_7096_2#2" center_name="SC" accession="ERX097094" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX097094</PRIMARY_ID>
+         <SUBMITTER_ID namespace="SC">SC_EXP_7096_2#2</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP000552" refname="Chondrosarcoma_Exome_-sc-2011-03-15" refcenter="SC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP000552</PRIMARY_ID>
+            <SUBMITTER_ID namespace="SC">Chondrosarcoma_Exome_-sc-2011-03-15</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>Illumina sequencing of library 3731326, constructed from sample accession EGAN00001028023 for study accession EGAS00001000038.  This is part of an Illumina multiplexed sequencing run (7096_2).  This submission includes reads tagged with the sequence CGATGT.</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR accession="ERS065346" refname="PD7301b-sc-2011-10-04T12:57:53Z-1287606" refcenter="SC">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS065346</PRIMARY_ID>
+               <SUBMITTER_ID namespace="SC">PD7301b-sc-2011-10-04T12:57:53Z-1287606</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>3731326</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WXS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>Hybrid Selection</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="174" NOMINAL_SDEV="45"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>Agilent Pulldown</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

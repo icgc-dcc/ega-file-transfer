@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="ena-EXPERIMENT-BCH-24-05-2015-21:48:00:503-18" center_name="BCH" accession="ERX979081" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX979081</PRIMARY_ID>
+         <SUBMITTER_ID namespace="BCH">ena-EXPERIMENT-BCH-24-05-2015-21:48:00:503-18</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP008889" refname="ena-STUDY-BCH-01-12-2014-19:05:03:140-88" refcenter="BCH">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP008889</PRIMARY_ID>
+            <SUBMITTER_ID namespace="BCH">ena-STUDY-BCH-01-12-2014-19:05:03:140-88</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION/>
+         <SAMPLE_DESCRIPTOR refname="ML_102_S" refcenter="BCH" accession="ERS728867">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS728867</PRIMARY_ID>
+               <SUBMITTER_ID namespace="BCH">ML_102_S</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>unspecified</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WGS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="350"/>
+            </LIBRARY_LAYOUT>
+         </LIBRARY_DESCRIPTOR>
+         <SPOT_DESCRIPTOR>
+            <SPOT_DECODE_SPEC>
+               <READ_SPEC>
+                  <READ_INDEX>0</READ_INDEX>
+                  <READ_LABEL>F1</READ_LABEL>
+                  <READ_CLASS>Application Read</READ_CLASS>
+                  <READ_TYPE>Forward</READ_TYPE>
+                  <BASE_COORD>1</BASE_COORD>
+               </READ_SPEC>
+               <READ_SPEC>
+                  <READ_INDEX>1</READ_INDEX>
+                  <READ_LABEL>R2</READ_LABEL>
+                  <READ_CLASS>Application Read</READ_CLASS>
+                  <READ_TYPE>Reverse</READ_TYPE>
+                  <RELATIVE_ORDER follows_read_index="0"/>
+               </READ_SPEC>
+            </SPOT_DECODE_SPEC>
+         </SPOT_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2500</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

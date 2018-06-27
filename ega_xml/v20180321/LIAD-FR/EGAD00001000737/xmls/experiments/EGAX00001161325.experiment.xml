@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT alias="ena-EXPERIMENT-INSERM-U674-03-02-2014-14:34:38:931-42" center_name="INSERM-U674" accession="ERX386769" broker_name="EGA">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX386769</PRIMARY_ID>
+         <SUBMITTER_ID namespace="INSERM-U674">ena-EXPERIMENT-INSERM-U674-03-02-2014-14:34:38:931-42</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <STUDY_REF accession="ERP004643" refname="ena-STUDY-INSERM-U674-24-01-2014-10:16:52:879-81" refcenter="INSERM-U674">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP004643</PRIMARY_ID>
+            <SUBMITTER_ID namespace="INSERM-U674">ena-STUDY-INSERM-U674-24-01-2014-10:16:52:879-81</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION/>
+         <SAMPLE_DESCRIPTOR accession="ERS396104" refname="CHC462N" refcenter="INSERM-U674">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS396104</PRIMARY_ID>
+               <SUBMITTER_ID namespace="INSERM-U674">CHC462N</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>"SureSelect Human All Exon+UTR Kits Version 4, 70Mb (Agilent technologies)"</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WXS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>PCR</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_LENGTH="75"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>"SureSelect Human All Exon+UTR Kits Version 4, 70Mb (Agilent technologies)"</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <PROCESSING/>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

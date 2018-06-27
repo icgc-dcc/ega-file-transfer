@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT center_name="QCMG" alias="S0411_20110602_1_FragPEBC.nopd.bcB16_16" accession="ERX195724" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX195724</PRIMARY_ID>
+         <SUBMITTER_ID namespace="QCMG">S0411_20110602_1_FragPEBC.nopd.bcB16_16</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>S0411_20110602_1_FragPEBC.nopd.bcB16_16</TITLE>
+      <STUDY_REF refname="Genome Landscape of Primary Pancreatic Ductal Adenocarcinoma" accession="ERP000940" refcenter="ICGC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP000940</PRIMARY_ID>
+            <SUBMITTER_ID namespace="ICGC">Genome Landscape of Primary Pancreatic Ductal Adenocarcinoma</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>AB SOLiD 4 System Fragment Multiplex Paired End Sequencing</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR refname="ICGC-ABMJ-20110329-37-TD" accession="ERS206864" refcenter="QCMG">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS206864</PRIMARY_ID>
+               <SUBMITTER_ID namespace="QCMG">ICGC-ABMJ-20110329-37-TD</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>Library_20110506_J</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WXS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>Hybrid Selection</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <PAIRED NOMINAL_SDEV="31" NOMINAL_LENGTH="181"/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>Fragment Human All Exon 50Mb (SureSelect)</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ABI_SOLID>
+            <INSTRUMENT_MODEL>AB SOLiD 4 System</INSTRUMENT_MODEL>
+         </ABI_SOLID>
+      </PLATFORM>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

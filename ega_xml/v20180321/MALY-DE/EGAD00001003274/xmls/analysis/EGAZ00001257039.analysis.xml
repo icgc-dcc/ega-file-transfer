@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS alias="WGS_paired_tumor_4167381_merged.mdup.bam.gpg" center_name="DKFZ-IBIOS" broker_name="EGA" accession="ERZ401580">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ401580</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DKFZ-IBIOS">WGS_paired_tumor_4167381_merged.mdup.bam.gpg</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>alignment of WGS data</TITLE>
+      <DESCRIPTION>Aligned with bwa 0.7.8-r455</DESCRIPTION>
+      <STUDY_REF accession="ERP013163">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP013163</PRIMARY_ID>
+            <SECONDARY_ID>EGAS00001001600</SECONDARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF accession="ERS1583012">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS1583012</PRIMARY_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT/>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE filename="WGS_paired_tumor_4167381_merged.mdup.bam.gpg" filetype="bam" checksum_method="MD5" checksum="32d187513b0a5cff7a5399cad5bbc6c2" unencrypted_checksum="d777fe78bc418299cac88023cd756293"/>
+      </FILES>
+      <ANALYSIS_ATTRIBUTES>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>library_strategy</TAG>
+            <VALUE>WGS</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>library_layout</TAG>
+            <VALUE>PAIRED</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+      </ANALYSIS_ATTRIBUTES>
+   </ANALYSIS>
+</ANALYSIS_SET>

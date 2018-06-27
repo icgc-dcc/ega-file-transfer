@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><EXPERIMENT_SET>
+   <EXPERIMENT center_name="QCMG" alias="S0433_20100708_2_Frag.nopd.nobc" accession="ERX195510" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERX195510</PRIMARY_ID>
+         <SUBMITTER_ID namespace="QCMG">S0433_20100708_2_Frag.nopd.nobc</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>S0433_20100708_2_Frag.nopd.nobc</TITLE>
+      <STUDY_REF refname="Genome Landscape of Primary Pancreatic Ductal Adenocarcinoma" accession="ERP000940" refcenter="ICGC">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP000940</PRIMARY_ID>
+            <SUBMITTER_ID namespace="ICGC">Genome Landscape of Primary Pancreatic Ductal Adenocarcinoma</SUBMITTER_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+         <DESIGN_DESCRIPTION>AB SOLiD 4 System Fragment Fragment Sequencing</DESIGN_DESCRIPTION>
+         <SAMPLE_DESCRIPTOR refname="ICGC-ABMB-20100312-08-ND" accession="ERS206809" refcenter="QCMG">
+            <IDENTIFIERS>
+               <PRIMARY_ID>ERS206809</PRIMARY_ID>
+               <SUBMITTER_ID namespace="QCMG">ICGC-ABMB-20100312-08-ND</SUBMITTER_ID>
+            </IDENTIFIERS>
+         </SAMPLE_DESCRIPTOR>
+         <LIBRARY_DESCRIPTOR>
+            <LIBRARY_NAME>Library_20100609_B</LIBRARY_NAME>
+            <LIBRARY_STRATEGY>WGS</LIBRARY_STRATEGY>
+            <LIBRARY_SOURCE>GENOMIC</LIBRARY_SOURCE>
+            <LIBRARY_SELECTION>RANDOM</LIBRARY_SELECTION>
+            <LIBRARY_LAYOUT>
+               <SINGLE/>
+            </LIBRARY_LAYOUT>
+            <LIBRARY_CONSTRUCTION_PROTOCOL>Fragment</LIBRARY_CONSTRUCTION_PROTOCOL>
+         </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+         <ABI_SOLID>
+            <INSTRUMENT_MODEL>AB SOLiD 4 System</INSTRUMENT_MODEL>
+         </ABI_SOLID>
+      </PLATFORM>
+   </EXPERIMENT>
+</EXPERIMENT_SET>

@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><RUN_SET>
+   <RUN alias="ena-RUN-DUKE-NUS-04-12-2017-04:55:39:803-1" center_name="DUKE-NUS" broker_name="EGA" accession="ERR2210784">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERR2210784</PRIMARY_ID>
+         <SUBMITTER_ID namespace="DUKE-NUS">ena-RUN-DUKE-NUS-04-12-2017-04:55:39:803-1</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <EXPERIMENT_REF accession="ERX2265137">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERX2265137</PRIMARY_ID>
+         </IDENTIFIERS>
+      </EXPERIMENT_REF>
+      <SPOT_DESCRIPTOR>
+         <SPOT_DECODE_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>0</READ_INDEX>
+               <READ_LABEL>F1</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Forward</READ_TYPE>
+               <BASE_COORD>1</BASE_COORD>
+            </READ_SPEC>
+            <READ_SPEC>
+               <READ_INDEX>1</READ_INDEX>
+               <READ_LABEL>R2</READ_LABEL>
+               <READ_CLASS>Application Read</READ_CLASS>
+               <READ_TYPE>Reverse</READ_TYPE>
+               <RELATIVE_ORDER follows_read_index="0"/>
+            </READ_SPEC>
+         </SPOT_DECODE_SPEC>
+      </SPOT_DESCRIPTOR>
+      <PLATFORM>
+         <ILLUMINA>
+            <INSTRUMENT_MODEL>Illumina HiSeq 2000</INSTRUMENT_MODEL>
+         </ILLUMINA>
+      </PLATFORM>
+      <DATA_BLOCK>
+         <FILES>
+            <FILE checksum="4c354e296f407cc65e78f896d33715d2" checksum_method="MD5" filename="EGAS00001001653/fastq/CCA_TH_15/N_CCA_TH_15/WHC117_NoIndex_L001_R1.fastq.gz" filetype="fastq" unencrypted_checksum="773f821298b6486a3d6df8a7c11e7285" quality_scoring_system="phred">
+               <READ_LABEL>F1</READ_LABEL>
+            </FILE>
+            <FILE checksum="a359a2e4739da9bc8501c4c848d12a52" checksum_method="MD5" filename="EGAS00001001653/fastq/CCA_TH_15/N_CCA_TH_15/WHC117_NoIndex_L001_R2.fastq.gz" filetype="fastq" unencrypted_checksum="df61676f17dddf4c10c3f22e62491a3b" quality_scoring_system="phred">
+               <READ_LABEL>R2</READ_LABEL>
+            </FILE>
+         </FILES>
+      </DATA_BLOCK>
+   </RUN>
+</RUN_SET>

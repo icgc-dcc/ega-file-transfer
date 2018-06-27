@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS analysis_center="OICR" analysis_date="2013-04-10T12:00:00.000Z" alias="d868a36c-42aa-4e3b-b3d7-1a24d1b91fc7" center_name="OICR_ICGC" broker_name="EGA" accession="ERZ401940">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ401940</PRIMARY_ID>
+         <SUBMITTER_ID namespace="OICR_ICGC">d868a36c-42aa-4e3b-b3d7-1a24d1b91fc7</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>Deep KRAS Sequencing</TITLE>
+      <DESCRIPTION>Deep KRAS Sequencing using IonTorrent</DESCRIPTION>
+      <STUDY_REF accession="ERP001969">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001969</PRIMARY_ID>
+            <SECONDARY_ID>EGAS00001000395</SECONDARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF label="PCSI_0069_Pa_X" accession="ERS532122">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS532122</PRIMARY_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT>
+            <ASSEMBLY>
+               <STANDARD refname="GRCh37" accession="GCA_000001405.1"/>
+            </ASSEMBLY>
+         </REFERENCE_ALIGNMENT>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE filename="alignment.kras_deep_sequencing/PCSI_0069_Pa_X/R_2013_04_10_10_55_33_user_04102013-2_SL_Auto_user_04102013-2_SL_137_PCSI_0069_Pa_X.bam.gpg" filetype="bam" checksum_method="MD5" checksum="30e8ae07d363308cd57e48af62580feb" unencrypted_checksum="240f97da24246713c49b9eeb4b3e4e8c"/>
+      </FILES>
+      <ANALYSIS_ATTRIBUTES>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>submitted_using</TAG>
+            <VALUE>egasub</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+      </ANALYSIS_ATTRIBUTES>
+   </ANALYSIS>
+</ANALYSIS_SET>
