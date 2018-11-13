@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS alias="0f992969-ed32-4ce5-8c8b-6a990ff7e427" analysis_center="McGill University and Genome Quebec Innovation Center" broker_name="EGA" center_name="CNG" accession="ERZ494986">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ494986</PRIMARY_ID>
+         <SUBMITTER_ID namespace="CNG">0f992969-ed32-4ce5-8c8b-6a990ff7e427</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>CAGEKID Cancer Genomics of the Kidney</TITLE>
+      <DESCRIPTION>The aim of CAGEKID is to carry out comprehensive detection of DNA markers for conventional (clear cell) renal carcinoma. The project includes complete analysis of somatic and constitutional DNA variation, methylation patterns and expression in a large number of constitutional/tumor pairs. CAGEKID is a part of the International Cancer Genome Consortium, ICGC.</DESCRIPTION>
+      <STUDY_REF accession="ERP000756">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP000756</PRIMARY_ID>
+            <SECONDARY_ID>EGAS00001000083</SECONDARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF accession="ERS2202641" label="LR468Blood-DNA">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS2202641</PRIMARY_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT>
+            <ASSEMBLY>
+               <STANDARD accession="GCA_000001405.1" refname="GRCh37"/>
+            </ASSEMBLY>
+         </REFERENCE_ALIGNMENT>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE checksum="720923fc7e336620c3a4ecf99fa71707" checksum_method="MD5" filename="alignment.Cagekid/LR468Blood-DNA/LR468Blood-DNA.sorted.dup.recal.bam" filetype="bam" unencrypted_checksum="9845d7a9a86eaeca938ecb4722480709"/>
+      </FILES>
+      <ANALYSIS_ATTRIBUTES>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>_submitted_using</TAG>
+            <VALUE>egasub 0.1.0rc12</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+      </ANALYSIS_ATTRIBUTES>
+   </ANALYSIS>
+</ANALYSIS_SET>

@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS alias="a76ec401-03ad-4773-b1a9-8da5a387c70f" analysis_center="McGill University and Genome Quebec Innovation Center" broker_name="EGA" center_name="CNG" accession="ERZ495243">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ495243</PRIMARY_ID>
+         <SUBMITTER_ID namespace="CNG">a76ec401-03ad-4773-b1a9-8da5a387c70f</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>CAGEKID Cancer Genomics of the Kidney</TITLE>
+      <DESCRIPTION>The aim of CAGEKID is to carry out comprehensive detection of DNA markers for conventional (clear cell) renal carcinoma. The project includes complete analysis of somatic and constitutional DNA variation, methylation patterns and expression in a large number of constitutional/tumor pairs. CAGEKID is a part of the International Cancer Genome Consortium, ICGC.</DESCRIPTION>
+      <STUDY_REF accession="ERP000756">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP000756</PRIMARY_ID>
+            <SECONDARY_ID>EGAS00001000083</SECONDARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF accession="ERS2202898" label="RS1141333TU-CUT1-DNA">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS2202898</PRIMARY_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT>
+            <ASSEMBLY>
+               <STANDARD accession="GCA_000001405.1" refname="GRCh37"/>
+            </ASSEMBLY>
+         </REFERENCE_ALIGNMENT>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE checksum="4a2fb1c34ab269f342cf770ead8952a8" checksum_method="MD5" filename="alignment.Cagekid/RS1141333TU-CUT1-DNA/RS1141333TU-CUT1-DNA.sorted.dup.recal.bam" filetype="bam" unencrypted_checksum="e20dc8bfdaa95d033cebf771702c2d6f"/>
+      </FILES>
+      <ANALYSIS_ATTRIBUTES>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>_submitted_using</TAG>
+            <VALUE>egasub 0.1.0rc12</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+      </ANALYSIS_ATTRIBUTES>
+   </ANALYSIS>
+</ANALYSIS_SET>

@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS alias="b8f96d0f-fef8-4d26-84c2-a923e1bc0e08" analysis_center="McGill University and Genome Quebec Innovation Center" broker_name="EGA" center_name="CNG" accession="ERZ494794">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ494794</PRIMARY_ID>
+         <SUBMITTER_ID namespace="CNG">b8f96d0f-fef8-4d26-84c2-a923e1bc0e08</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>CAGEKID Cancer Genomics of the Kidney</TITLE>
+      <DESCRIPTION>The aim of CAGEKID is to carry out comprehensive detection of DNA markers for conventional (clear cell) renal carcinoma. The project includes complete analysis of somatic and constitutional DNA variation, methylation patterns and expression in a large number of constitutional/tumor pairs. CAGEKID is a part of the International Cancer Genome Consortium, ICGC.</DESCRIPTION>
+      <STUDY_REF accession="ERP000756">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP000756</PRIMARY_ID>
+            <SECONDARY_ID>EGAS00001000083</SECONDARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF accession="ERS2202449" label="K2140229Blood-DNA">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS2202449</PRIMARY_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT>
+            <ASSEMBLY>
+               <STANDARD accession="GCA_000001405.1" refname="GRCh37"/>
+            </ASSEMBLY>
+         </REFERENCE_ALIGNMENT>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE checksum="3832f3f38ced9cadbad77717b27e5302" checksum_method="MD5" filename="alignment.Cagekid/K2140229Blood-DNA/K2140229Blood-DNA.sorted.dup.recal.bam" filetype="bam" unencrypted_checksum="ee0876fce652992a947529cf7714905b"/>
+      </FILES>
+      <ANALYSIS_ATTRIBUTES>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>_submitted_using</TAG>
+            <VALUE>egasub 0.1.0rc12</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+      </ANALYSIS_ATTRIBUTES>
+   </ANALYSIS>
+</ANALYSIS_SET>

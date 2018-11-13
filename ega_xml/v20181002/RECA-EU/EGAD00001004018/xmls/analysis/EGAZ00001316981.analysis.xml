@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS alias="f651d6f9-9a3c-4883-a91c-d5d5f7c9b8df" analysis_center="McGill University and Genome Quebec Innovation Center" broker_name="EGA" center_name="CNG" accession="ERZ494889">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ494889</PRIMARY_ID>
+         <SUBMITTER_ID namespace="CNG">f651d6f9-9a3c-4883-a91c-d5d5f7c9b8df</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>CAGEKID Cancer Genomics of the Kidney</TITLE>
+      <DESCRIPTION>The aim of CAGEKID is to carry out comprehensive detection of DNA markers for conventional (clear cell) renal carcinoma. The project includes complete analysis of somatic and constitutional DNA variation, methylation patterns and expression in a large number of constitutional/tumor pairs. CAGEKID is a part of the International Cancer Genome Consortium, ICGC.</DESCRIPTION>
+      <STUDY_REF accession="ERP000756">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP000756</PRIMARY_ID>
+            <SECONDARY_ID>EGAS00001000083</SECONDARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF accession="ERS2202544" label="K2310220TU-CUT1-40">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS2202544</PRIMARY_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT>
+            <ASSEMBLY>
+               <STANDARD accession="GCA_000001405.1" refname="GRCh37"/>
+            </ASSEMBLY>
+         </REFERENCE_ALIGNMENT>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE checksum="660e0c2c13d99676c2fdb1b768992b2a" checksum_method="MD5" filename="alignment.Cagekid/K2310220TU-CUT1-40/K2310220TU-CUT1-40.sorted.dup.recal.bam" filetype="bam" unencrypted_checksum="654893fcc20d810591dfce63e7db94e9"/>
+      </FILES>
+      <ANALYSIS_ATTRIBUTES>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>_submitted_using</TAG>
+            <VALUE>egasub 0.1.0rc12</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+      </ANALYSIS_ATTRIBUTES>
+   </ANALYSIS>
+</ANALYSIS_SET>

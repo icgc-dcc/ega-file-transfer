@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS alias="97e117db-a2ac-4214-a323-5e8699ea644c" analysis_center="McGill University and Genome Quebec Innovation Center" broker_name="EGA" center_name="CNG" accession="ERZ494701">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ494701</PRIMARY_ID>
+         <SUBMITTER_ID namespace="CNG">97e117db-a2ac-4214-a323-5e8699ea644c</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>CAGEKID Cancer Genomics of the Kidney</TITLE>
+      <DESCRIPTION>The aim of CAGEKID is to carry out comprehensive detection of DNA markers for conventional (clear cell) renal carcinoma. The project includes complete analysis of somatic and constitutional DNA variation, methylation patterns and expression in a large number of constitutional/tumor pairs. CAGEKID is a part of the International Cancer Genome Consortium, ICGC.</DESCRIPTION>
+      <STUDY_REF accession="ERP000756">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP000756</PRIMARY_ID>
+            <SECONDARY_ID>EGAS00001000083</SECONDARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF accession="ERS2202356" label="K2120137TU-CUT1-DNA">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS2202356</PRIMARY_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT>
+            <ASSEMBLY>
+               <STANDARD accession="GCA_000001405.1" refname="GRCh37"/>
+            </ASSEMBLY>
+         </REFERENCE_ALIGNMENT>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE checksum="35beb81533d388ea16e825c27bce3419" checksum_method="MD5" filename="alignment.Cagekid/K2120137TU-CUT1-DNA/K2120137TU-CUT1-DNA.sorted.dup.recal.bam" filetype="bam" unencrypted_checksum="4521b0adf95f266b3710a214afd95c40"/>
+      </FILES>
+      <ANALYSIS_ATTRIBUTES>
+         <ANALYSIS_ATTRIBUTE>
+            <TAG>_submitted_using</TAG>
+            <VALUE>egasub 0.1.0rc12</VALUE>
+         </ANALYSIS_ATTRIBUTE>
+      </ANALYSIS_ATTRIBUTES>
+   </ANALYSIS>
+</ANALYSIS_SET>
