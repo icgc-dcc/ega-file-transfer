@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RUN_SET>
+  <RUN alias="ena-RUN-CURIE-02-12-2018-12:10:25:145-152" center_name="CURIE" broker_name="EGA" accession="ERR2939382">
+    <IDENTIFIERS>
+      <PRIMARY_ID>ERR2939382</PRIMARY_ID>
+      <SUBMITTER_ID namespace="CURIE">ena-RUN-CURIE-02-12-2018-12:10:25:145-152</SUBMITTER_ID>
+    </IDENTIFIERS>
+    <EXPERIMENT_REF accession="ERX2942172">
+      <IDENTIFIERS>
+        <PRIMARY_ID>ERX2942172</PRIMARY_ID>
+      </IDENTIFIERS>
+    </EXPERIMENT_REF>
+    <SPOT_DESCRIPTOR>
+      <SPOT_DECODE_SPEC>
+        <READ_SPEC>
+          <READ_INDEX>0</READ_INDEX>
+          <READ_LABEL>F1</READ_LABEL>
+          <READ_CLASS>Application Read</READ_CLASS>
+          <READ_TYPE>Forward</READ_TYPE>
+          <BASE_COORD>1</BASE_COORD>
+        </READ_SPEC>
+        <READ_SPEC>
+          <READ_INDEX>1</READ_INDEX>
+          <READ_LABEL>R2</READ_LABEL>
+          <READ_CLASS>Application Read</READ_CLASS>
+          <READ_TYPE>Reverse</READ_TYPE>
+          <RELATIVE_ORDER follows_read_index="0"/>
+        </READ_SPEC>
+      </SPOT_DECODE_SPEC>
+    </SPOT_DESCRIPTOR>
+    <PLATFORM>
+      <ILLUMINA>
+        <INSTRUMENT_MODEL>Illumina HiSeq 2500</INSTRUMENT_MODEL>
+      </ILLUMINA>
+    </PLATFORM>
+    <DATA_BLOCK>
+      <FILES>
+        <FILE checksum="aaff1c39befd209f57aa374592f70e8b" checksum_method="MD5" filename="T21_CGATGT_L004_R1_001.fastq.gz" filetype="fastq" unencrypted_checksum="5d9acf597666f24b8326128aabfcdb9c" quality_scoring_system="phred">
+          <READ_LABEL>F1</READ_LABEL>
+        </FILE>
+        <FILE checksum="853cd28361225db303a3784f642cbf4c" checksum_method="MD5" filename="T21_CGATGT_L004_R2_001.fastq.gz" filetype="fastq" unencrypted_checksum="1aab4af9d3b86de4e8cca0fe9844cb1c" quality_scoring_system="phred">
+          <READ_LABEL>R2</READ_LABEL>
+        </FILE>
+      </FILES>
+    </DATA_BLOCK>
+  </RUN>
+</RUN_SET>
