@@ -1,0 +1,31 @@
+<?xml version = '1.0' encoding = 'UTF-8'?><ANALYSIS_SET>
+   <ANALYSIS alias="PCSI_0410_Pa_P" analysis_center="OICR" broker_name="EGA" center_name="OICR_ICGC" accession="ERZ486135" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <IDENTIFIERS>
+         <PRIMARY_ID>ERZ486135</PRIMARY_ID>
+         <SUBMITTER_ID namespace="OICR_ICGC">PCSI_0410_Pa_P</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>WGS Sequencing of PACA-CA samples</TITLE>
+      <DESCRIPTION>Aligned WGS sequenced data</DESCRIPTION>
+      <STUDY_REF accession="ERP001969">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERP001969</PRIMARY_ID>
+            <SECONDARY_ID>EGAS00001000395</SECONDARY_ID>
+         </IDENTIFIERS>
+      </STUDY_REF>
+      <SAMPLE_REF accession="ERS2153259">
+         <IDENTIFIERS>
+            <PRIMARY_ID>ERS2153259</PRIMARY_ID>
+         </IDENTIFIERS>
+      </SAMPLE_REF>
+      <ANALYSIS_TYPE>
+         <REFERENCE_ALIGNMENT>
+            <ASSEMBLY>
+               <STANDARD accession="GCA_000001405.1" refname="GRCh37"/>
+            </ASSEMBLY>
+         </REFERENCE_ALIGNMENT>
+      </ANALYSIS_TYPE>
+      <FILES>
+         <FILE checksum="e258598ee80d9421c3166959aa04eadd" checksum_method="MD5" filename="alignment.wgs/PCSI_0410_Pa_P.bam" filetype="bam" unencrypted_checksum="efe3f05c6b6e1627981edd1825394ba0"/>
+      </FILES>
+   </ANALYSIS>
+</ANALYSIS_SET>
